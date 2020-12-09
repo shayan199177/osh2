@@ -1045,7 +1045,10 @@ topnav .active {
     margin-bottom: 0;
     line-height: 1.5;
 }
-
+.carousel-item-title-basket {
+    height: 40px;
+    overflow-y: hidden;
+}
 .test2 {
     height: auto;
     width: 100%;
@@ -1423,10 +1426,22 @@ nav > div a.nav-item.nav-lin:focus {
     font-size: 0.8rem;
     color: #303030;
     border: 0;
+    background-color: transparent;
 }
 
 .love-item:hover {
     color: #dc3545;
+}
+
+.delete-item {
+    font-size: 0.8rem;
+    color: #303030;
+    border: 0;
+    background-color: transparent;
+}
+
+.delete-item:hover {
+    color: #000000;
 }
 
 .sub-item-page {
