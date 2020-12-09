@@ -1,9 +1,7 @@
 @extends('layouts.shop')
 
 @push('styles')
-  <link href="{!! asset('assets/libs/owl-carousel/owl.carousel.min.css') !!}" rel="stylesheet">
-  <link href="{!! asset('assets/libs/css-zoom/xzoom.css') !!}" media="all" rel="stylesheet">
-  <link href="{!! asset('assets/libs/js-zoom/fancybox/source/jquery.fancybox.css') !!}" media="all" rel="stylesheet">
+
 @endpush
 
 @section('content')
@@ -563,13 +561,7 @@
 @endsection
 
 @push('scripts')
-  <script src="{!! asset('assets/libs/owl-carousel/owl.carousel.min.js') !!}"></script>
-  <script src="{!! asset('assets/libs/js-zoom/fancybox/source/jquery.fancybox.js') !!}"></script>
-  <script src="{!! asset('assets/libs/js-zoom/xzoom.min.js') !!}"></script>
-  <script src="{!! asset('assets/libs/js-zoom/setup.js') !!}"></script>
-  <script src="{!! asset('assets/libs/js-zoom/vendor/placeholder.js') !!}"></script>
-  <script src="{!! asset('assets/libs/js-zoom/vendor/fastclick.js') !!}"></script>
-  <script src="{!! asset('assets/libs/js-zoom/vendor/jquery.cookie.js') !!}"></script>
+
 @endpush
 
 @push('custom-scripts')
