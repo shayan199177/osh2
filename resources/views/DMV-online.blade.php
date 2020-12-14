@@ -3,13 +3,13 @@
 @section('content')
     <div class="w100 bg-dmvo-container">
         <div class="container">
-            <div class="py-3">
+            <div class="pb-3 pt-4">
                 <h1 class="h6 text-center w-color">بیمارستان ها و کلینیک های منتخب</h1>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="card-dmv my-3 mx-1 rounded border border-light">
+        <div class="card-dmv my-3 mx-1 rounded border border">
             <div class="card-body d-flex">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-dmv" data-ride="carousel">
                     <ol class="carousel-indicators">
