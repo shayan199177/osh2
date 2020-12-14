@@ -1301,6 +1301,11 @@ nav > div a.nav-item.nav-lin:focus {
     transition: all 0.2s ease-out;
 }
 
+.button-return:hover {
+    background-color: #007bffd4;
+    color: white;
+}
+
 .button-return-2 {
     font-size: 0.84rem;
     border-radius: 5px;
@@ -1313,21 +1318,9 @@ nav > div a.nav-item.nav-lin:focus {
     transition: all 0.2s ease-out;
 }
 
-.button-return-3 {
-    font-size: .9rem;
-    border-radius: 5px;
-    color: #000000;
-    overflow: hidden;
-    text-align: center;
-    background-color: #21252905;
-    border: none;
-    padding: 5px 15px;
-    transition: all 0.2s ease-out;
-}
-
-.button-return:hover {
-    background-color: #007bffd4;
-    color: white;
+.button-return-2:hover {
+    color: #ffffff;
+    background-color: #4c4c4c;
 }
 
 .card {
@@ -1441,7 +1434,7 @@ nav > div a.nav-item.nav-lin:focus {
 }
 
 .delete-item:hover {
-    color: #000000;
+    color: #dc3545;
 }
 
 .sub-item-page {
@@ -1961,7 +1954,7 @@ nav > div a.nav-item.nav-lin:focus {
 
 .left-price-basket {
     position: absolute;
-    left: 22px;
+    left: 0;
 }
 
 .progress {
