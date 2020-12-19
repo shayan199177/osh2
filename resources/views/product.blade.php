@@ -76,8 +76,8 @@
                             <i class="fas fa-star star-gold"></i>
                             <i class="fas fa-star star-gold"></i>
                             <i class="fas fa-star star-gold"></i>
-                            <i class="fas fa-star star-gold"></i>
-                            <i class="fas fa-star star-gold"></i>
+                            <i class="fas fa-star-half-alt star-gold"></i>
+                                    <i class="far fa-star star-gold"></i>
                                  </span>
                             </div>
                             <div class="d-flex justify-content-between justify-content-md-start">
@@ -503,9 +503,9 @@
                             <i class="fas fa-star star-gold"></i>
                             <i class="fas fa-star star-gold"></i>
                             <i class="fas fa-star star-gold"></i>
-                            <i class="fas fa-star star-gold"></i>
-                            <i class="fas fa-star star-gold"></i>
-                                       </span>
+                            <i class="fas fa-star-half-alt star-gold"></i>
+                                    <i class="far fa-star star-gold"></i>
+                                 </span>
                                     </div>
                                     <div class="text-left px-3 mb-3 mt-2">
                                         <div class="mb-2" style="height: 24px">
