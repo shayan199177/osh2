@@ -173,8 +173,8 @@ jQuery('.slider-offer').owlCarousel({
 });
 jQuery('.slider-page-item').owlCarousel({
     rtl: true,
-    loop: true,
-    margin: 5,
+    loop: false,
+    margin: 0,
     nav: true,
     autoplay: false,
     autoplayTimeout: 4500,
