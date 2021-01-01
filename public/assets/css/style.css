@@ -1062,11 +1062,11 @@ topnav .active {
 }
 
 .carousel-control-next-icon {
-    background-image: url("public/assets/images/sliders/icons8-chevron-right-16.png");
+    background-image: url("../images/sliders/icons8-chevron-right-16.png");
 }
 
 .carousel-control-prev-icon {
-    background-image: url("public/assets/images/sliders/icons8-chevron-left-16.png");
+    background-image: url("../images/sliders/icons8-chevron-left-16.png");
 }
 
 .top-sub-menu-dropdown {
@@ -2273,6 +2273,11 @@ input[type=range]::-ms-thumb {
     border: 2px solid #f1c40f;
     border-radius: 50px;
     background: white;
+}
+.border-address{
+    border: 1px solid #c4c4c4;
+    border-radius: .5rem;
+    padding: 20px;
 }
 /*  media query  */
 /*// Extra small devices (portrait phones, less than 576px)*/

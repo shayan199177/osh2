@@ -13,17 +13,17 @@
                     <form class="text-right">
                         <div class="form-row">
                             <div class="col">
-                                <label for="name" class="small">نام</label>
+                                <label for="name" class="small">نام<i class="fas fa-asterisk small red-color pr-1"></i></label>
                                 <input type="text" class="form-control-profile" id="name">
                             </div>
                             <div class="col">
-                                <label for="family" class="small">نام خانوادگی</label>
+                                <label for="family" class="small">نام خانوادگی<i class="fas fa-asterisk small red-color pr-1"></i></label>
                                 <input type="text" class="form-control-profile" id="family">
                             </div>
                         </div>
                         <div class="form-row mt-4">
                             <div class="form-group col-md-6">
-                                <label for="inputphone" class="small">تلفن همراه</label>
+                                <label for="inputphone" class="small">تلفن همراه<i class="fas fa-asterisk small red-color pr-1"></i></label>
                                 <input type="text" class="form-control-profile" placeholder="مثال: 09125570613" id="inputphone">
                             </div>
                             <div class="form-group col-md-6">
@@ -43,8 +43,8 @@
                         </div>
 
                         <div class="form-row mt-3">
-                            <div class="form-group col-md-4">
-                                <label for="inputState" class="small">استان</label>
+                            <div class="form-group col-md-6">
+                                <label for="inputState" class="small">استان<i class="fas fa-asterisk small red-color pr-1"></i></label>
                                 <select id="inputState" class="form-control-profile">
                                     <option selected>انتخاب کنید...</option>
                                     <option>تهران</option>
@@ -53,26 +53,30 @@
                                     <option>مازندران</option>
                                 </select>
                             </div>
-                            <div class="form-group col-md-5">
+                            <div class="form-group col-md-6">
                                 <label for="inputCity" class="small">شهر</label>
                                 <input type="text" class="form-control-profile" id="inputCity">
-                            </div>
-                            <div class="form-group col-md-3">
-                                <label for="inputZip" class="small">کد پستی</label>
-                                <input type="text" class="form-control-profile" id="inputZip">
                             </div>
                         </div>
                     </form>
                 </div>
                 <div class="col-12 col-lg-6 order-1 my-4">
                     <form class="text-right">
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1" class="small">آدرس</label>
+                        <div class="form-group border-address">
+                            <label for="exampleFormControlTextarea1" class="small">آدرس<i class="fas fa-asterisk small red-color pr-1"></i></label>
                             <textarea class="form-control-profile-add" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <div class="form-group col-md-5">
+                                <label for="inputZip" class="small">کد پستی</label>
+                                <input type="text" class="form-control-profile" id="inputZip">
+                            </div>
                         </div>
-                        <div class="form-group mt-2">
+                        <div class="form-group mt-2 border-address">
                             <label for="exampleFormControlTextarea2" class="small">آدرس دوم (جدید)</label>
                             <textarea class="form-control-profile-add" id="exampleFormControlTextarea2" rows="3"></textarea>
+                            <div class="form-group col-md-5">
+                                <label for="inputZip" class="small">کد پستی</label>
+                                <input type="text" class="form-control-profile" id="inputZip">
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -81,6 +85,10 @@
                 <button type="submit" class="btn btn-success">ذخیره تغییرات</button>
             </div>
             <div class="col-12 text-right mb-3 border-top-c3">
+                <p class="small gray-color mb-2 mt-2 text-justify"><i
+                        class="fas fa-exclamation-circle ml-2"></i>پر کردن فیلدهای ستاره دار الزامی می باشد.</p>
+                <p class="small gray-color mb-2 mt-2 text-justify"><i
+                        class="fas fa-exclamation-circle ml-2"></i>برای سهولت در انتخاب آدرس ارسال، امکان افزودن دو آدرس وجود دارد.</p>
                 <p class="small gray-color mb-2 mt-2 text-justify"><i
                         class="fas fa-exclamation-circle ml-2"></i>برای ذخیره و اصلاح اطلاعات کاربری حتما باید دکمه ی ذخیره کلیک شود.</p>
             </div>

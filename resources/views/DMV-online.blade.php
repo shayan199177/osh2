@@ -59,5 +59,6 @@
 
 @push('scripts')
     <script src="{!! asset('assets/libs/owl-carousel/owl.carousel.min.js') !!}"></script>
+
 @endpush
 
