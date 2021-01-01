@@ -2266,7 +2266,9 @@ input[type=range]::-ms-thumb {
     height: 150px;
     width: 230px;
 }
-
+.min-w-150{
+    min-width: 150px;
+}
 /*  media query  */
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 576px) {
