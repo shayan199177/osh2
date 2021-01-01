@@ -7,3 +7,4 @@ Route::view('basket', 'basket');
 Route::view('confirm-address', 'confirm-address');
 Route::view('confirm-payment', 'confirm-payment');
 Route::view('DMV-online', 'DMV-online');
+Route::view('profile-setting', 'profile-setting');
