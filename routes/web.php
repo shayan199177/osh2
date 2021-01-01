@@ -9,3 +9,4 @@ Route::view('confirm-payment', 'confirm-payment');
 Route::view('DMV-online', 'DMV-online');
 Route::view('profile-setting', 'profile-setting');
 Route::view('my-orders-service', 'my-orders-service');
+Route::view('my-orders', 'my-orders');
