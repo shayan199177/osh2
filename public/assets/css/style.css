@@ -2269,6 +2269,11 @@ input[type=range]::-ms-thumb {
 .min-w-150{
     min-width: 150px;
 }
+.border-h6 {
+    border: 2px solid #f1c40f;
+    border-radius: 50px;
+    background: white;
+}
 /*  media query  */
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 576px) {

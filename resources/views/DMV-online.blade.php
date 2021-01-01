@@ -1,13 +1,13 @@
 @extends('layouts.shop')
 
 @section('content')
-    <div class="w100 bg-dmvo-container">
-        <div class="container">
-            <div class="pb-3 pt-4">
-                <h1 class="h6 text-center w-color">بیمارستان ها و کلینیک های منتخب</h1>
-            </div>
+
+    <div class="container text-center mt-3">
+        <div class="d-inline-flex border-h6">
+            <h1 class="h6 m-0 py-2 px-4">بیمارستان ها و کلینیک های منتخب</h1>
         </div>
     </div>
+
     <div class="container">
         <div class="card-dmv my-3 mx-1 rounded border border">
             <div class="card-body d-flex">
