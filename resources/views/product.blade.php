@@ -583,5 +583,6 @@
 @endpush
 
 @push('custom-scripts')
-  <script> productPage() </script>
+    <script src="{!! asset('assets/js/owlCarousel.js') !!}"></script>
+    <script> productPage() </script>
 @endpush
