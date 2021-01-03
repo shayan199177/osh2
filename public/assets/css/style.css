@@ -2282,7 +2282,7 @@ input[type=range]::-ms-thumb {
 .border-pill-5{
     border: 1px solid #dfdfdf;
     border-radius: 50px;
-    padding: 5px;
+    padding: 5px 15px;
     background: #fdfdfd;
 }
 /*  media query  */
