@@ -7,17 +7,17 @@
                 <div class="col-12 text-right mt-3 mb-2 d-none d-lg-flex">
                     <div class="col bg-white border p-3 rounded">
                         <div class="col d-flex text-center justify-content-around">
-                            <div class="col small">
+                            <div class="col small font-700">
                                 مراحل تایید و پرداخت خرید:
                             </div>
                             <div class="col small green-color">
-                                تایید سفارش
+                             <i class="fas fa-check-circle ml-2 green-color"></i>تایید سفارش
                             </div>
                             <div class="col green-color small">
-                                تایید آدرس و نحوه ارسال
+                                <i class="fas fa-check-circle ml-2 green-color"></i>تایید آدرس و نحوه ارسال
                             </div>
                             <div class="col small">
-                                <i class="fas fa-check-circle ml-2 green-color"></i><span>پرداخت نهایی</span>
+                                <i class="fas fa-check-circle ml-2 text-warning"></i><span class="font-700 text-warning">پرداخت نهایی</span>
                             </div>
                         </div>
                     </div>
@@ -25,11 +25,11 @@
                 <div class="col-12 d-block d-lg-none mt-3 mb-2">
                     <ul class="list-group text-right">
                         <li class="list-group-item small bg-main">مراحل تایید و پرداخت خرید:</li>
-                        <li class="list-group-item small green-color">تایید سفارش</li>
+                        <li class="list-group-item small green-color"><i class="fas fa-check-circle ml-2 green-color"></i>تایید سفارش</li>
                         <li class="list-group-item small green-color" aria-disabled="true">
-                            <span>تایید آدرس و نحوه ارسال</span></li>
-                        <li class="list-group-item small"><i
-                                class="fas fa-check-circle ml-2 green-color"></i>پرداخت نهایی
+                            <i class="fas fa-check-circle ml-2 green-color"></i><span>تایید آدرس و نحوه ارسال</span></li>
+                        <li class="list-group-item small">
+                            <i class="fas fa-check-circle ml-2 text-warning"></i><span class="font-700 text-warning">پرداخت نهایی</span>
                         </li>
                     </ul>
                 </div>

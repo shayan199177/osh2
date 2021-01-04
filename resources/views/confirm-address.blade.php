@@ -7,14 +7,14 @@
                 <div class="col-12 text-right mt-3 mb-2 d-none d-lg-flex">
                     <div class="col bg-white border p-3 rounded">
                         <div class="col d-flex text-center justify-content-around">
-                            <div class="col small">
+                            <div class="col small font-700">
                                 مراحل تایید و پرداخت خرید:
                             </div>
                             <div class="col small green-color">
-                                تایید سفارش
+                                <i class="fas fa-check-circle ml-2 green-color"></i>تایید سفارش
                             </div>
                             <div class="col active-pages-cart small">
-                                <i class="fas fa-check-circle ml-2 green-color"></i><span>تایید آدرس و نحوه ارسال</span>
+                                <i class="fas fa-check-circle ml-2 font-700 text-warning"></i><span class="text-warning">تایید آدرس و نحوه ارسال</span>
                             </div>
                             <div class="col small gray-color">
                                 پرداخت نهایی
@@ -25,9 +25,9 @@
                 <div class="col-12 d-block d-lg-none mt-3 mb-2">
                     <ul class="list-group text-right">
                         <li class="list-group-item small bg-main">مراحل تایید و پرداخت خرید:</li>
-                        <li class="list-group-item small green-color">تایید سفارش</li>
+                        <li class="list-group-item small green-color"><i class="fas fa-check-circle ml-2 green-color"></i>تایید سفارش</li>
                         <li class="list-group-item small" aria-disabled="true"><i
-                                class="fas fa-check-circle ml-2 green-color"></i><span>تایید آدرس و نحوه ارسال</span></li>
+                                class="fas fa-check-circle ml-2 font-700 text-warning"></i><span class="text-warning">تایید آدرس و نحوه ارسال</span></li>
                         <li class="list-group-item small gray-color">پرداخت نهایی</li>
                     </ul>
                 </div>
@@ -38,7 +38,10 @@
                 <div class="col-12 order-1 order-lg-2 col-lg-8 col-xl-9 mb-3">
                     <div class="card card-basket">
                         <div class="col-12 text-right mt-4 mb-2">
-                            <p class="mb-2"><i class="fas fa-map-marked-alt ml-2"></i>آدرس تحویل سفارش</p>
+                            <div class="d-flex justify-content-between">
+                                <div><p class="mb-2"><i class="fas fa-map-marked-alt ml-2"></i>آدرس تحویل سفارش</p></div>
+                                <div class="d-none d-sm-block"><a href="../user/profile-setting.html" class="button-return-2"><i class="fas fa-pencil-alt ml-2"></i>ویرایش آدرس</a></div>
+                            </div>
                             <div class="col-12">
                                 <div class="mb-5">
                                     <div class="form-check text-justify mt-4">
@@ -55,10 +58,9 @@
                                             <span>تهران ولی عصر خیابان مدنی خیابان گلها پلاک 355 طبقه اول</span>
                                         </label>
                                     </div>
-                                    <div class="mt-3 text-left"><a href="../user/profile-setting.html" class="button-return-2"><i class="fas fa-pencil-alt ml-2"></i>ویرایش آدرس</a></div>
+                                    <div class="d-block d-sm-none mt-3 text-left"><a href="../user/profile-setting.html" class="button-return-2"><i class="fas fa-pencil-alt ml-2"></i>ویرایش آدرس</a></div>
                                 </div>
                                 <div>
-
                                 </div>
                             </div>
 

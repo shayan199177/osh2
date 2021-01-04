@@ -524,7 +524,7 @@
                 <div class="col-12 order-1 order-lg-2 col-lg-4 col-xl-3 mb-3">
                     <div class="card card-basket">
                         <div class="col-12 text-right mt-4 mb-3">
-                            <div class="col-12 d-flex border-bottom-c3"><h5 class="small">قیمت کالاها</h5>
+                            <div class="col-12 d-flex pb-2 border-bottom-c3"><h5 class="small">قیمت کالاها</h5>
                                 <div class="d-flex left-price-basket">
                                     <h6 class="price-font my-auto small">۳۲۹,۳۰۰,۳۰۰<span
                                             class="toman-price my-auto small">تومان</span></h6>
