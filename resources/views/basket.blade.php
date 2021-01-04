@@ -7,11 +7,11 @@
                 <div class="col-12 text-right mt-3 mb-2 d-none d-lg-flex">
                     <div class="col bg-white border p-3 rounded">
                         <div class="col d-flex text-center justify-content-around">
-                            <div class="col small">
+                            <div class="col small font-700">
                                 مراحل تایید و پرداخت خرید:
                             </div>
                             <div class="col active-pages-cart small">
-                                <i class="fas fa-check-circle ml-2 green-color"></i><span>تایید سفارش</span>
+                                <i class="fas fa-check-circle ml-2 text-warning"></i><span class="font-700 text-warning">تایید سفارش</span>
                             </div>
                             <div class="col small gray-color">
                                 آدرس و نحوه ارسال
@@ -26,7 +26,7 @@
                     <ul class="list-group text-right">
                         <li class="list-group-item small bg-main">مراحل تایید و پرداخت خرید:</li>
                         <li class="list-group-item small" aria-disabled="true"><i
-                                class="fas fa-check-circle ml-2 green-color"></i><span>تایید سفارش</span></li>
+                                class="fas fa-check-circle ml-2 text-warning"></i><span class="font-700 text-warning">تایید سفارش</span></li>
                         <li class="list-group-item small gray-color">آدرس و نحوه ارسال</li>
                         <li class="list-group-item small gray-color">پرداخت نهایی</li>
                     </ul>
@@ -78,7 +78,7 @@
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
                                                     <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
-                                                            class="far fa-trash-alt ft_5 ml-1 black-color"></i>
+                                                            class="far fa-trash-alt ml-1"></i>
                                                         <span>حذف</span></button>
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
@@ -114,10 +114,10 @@
                                                         </button>
                                                     </div>
                                                 </div>
-                                                <div class="my-auto d-none d-xl-block">
-                                                    <a href="#" data-toggle="modal" data-target="#exampleModal"><i
-                                                            class="far fa-trash-alt ft_5 ml-1"></i><span
-                                                            class="ft_6">حذف</span></a>
+                                                <div class="my-auto d-none d-xl-block delete-item">
+                                                    <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
+                                                            class="far fa-trash-alt ml-1"></i><span
+                                                            class="ft_6">حذف</span></button>
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
                                                     <a href="#">
@@ -135,7 +135,7 @@
                                     <div class="mt-3 d-none d-sm-flex">
                                         <div class="my-auto d-block d-xl-none">
                                             <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
-                                                    class="far fa-trash-alt ft_5 ml-1 black-color"></i>
+                                                    class="far fa-trash-alt ml-1"></i>
                                                 <span>حذف</span></button>
                                         </div>
                                         <div class="my-auto d-block d-xl-none">
@@ -147,7 +147,7 @@
                                     <div class="d-block d-sm-none mt-5">
                                         <div class="my-auto d-block d-xl-none">
                                             <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
-                                                    class="far fa-trash-alt ft_5 ml-1 black-color"></i>
+                                                    class="far fa-trash-alt ml-1"></i>
                                                 <span>حذف</span></button>
                                         </div>
                                         <div class="my-auto d-block d-xl-none">
@@ -198,7 +198,7 @@
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
                                                     <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
-                                                            class="far fa-trash-alt ft_5 ml-1 black-color"></i>
+                                                            class="far fa-trash-alt ml-1"></i>
                                                         <span>حذف</span></button>
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
@@ -235,9 +235,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
-                                                    <a href="#" data-toggle="modal" data-target="#exampleModal"><i
-                                                            class="far fa-trash-alt ft_5 ml-1"></i><span
-                                                            class="ft_6">حذف</span></a>
+                                                    <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
+                                                            class="far fa-trash-alt ml-1"></i><span
+                                                            class="ft_6">حذف</span></button>
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
                                                     <a href="#">
@@ -255,7 +255,7 @@
                                     <div class="mt-3 d-none d-sm-flex">
                                         <div class="my-auto d-block d-xl-none">
                                             <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
-                                                    class="far fa-trash-alt ft_5 ml-1 black-color"></i>
+                                                    class="far fa-trash-alt ml-1"></i>
                                                 <span>حذف</span></button>
                                         </div>
                                         <div class="my-auto d-block d-xl-none">
@@ -267,7 +267,7 @@
                                     <div class="d-block d-sm-none mt-5">
                                         <div class="my-auto d-block d-xl-none">
                                             <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
-                                                    class="far fa-trash-alt ft_5 ml-1 black-color"></i>
+                                                    class="far fa-trash-alt ml-1"></i>
                                                 <span>حذف</span></button>
                                         </div>
                                         <div class="my-auto d-block d-xl-none">
@@ -318,7 +318,7 @@
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
                                                     <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
-                                                            class="far fa-trash-alt ft_5 ml-1 black-color"></i>
+                                                            class="far fa-trash-alt ml-1"></i>
                                                         <span>حذف</span></button>
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
@@ -355,9 +355,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
-                                                    <a href="#" data-toggle="modal" data-target="#exampleModal"><i
-                                                            class="far fa-trash-alt ft_5 ml-1"></i><span
-                                                            class="ft_6">حذف</span></a>
+                                                    <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
+                                                            class="far fa-trash-alt ml-1"></i><span
+                                                            class="ft_6">حذف</span></button>
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
                                                     <a href="#">
@@ -375,7 +375,7 @@
                                     <div class="mt-3 d-none d-sm-flex">
                                         <div class="my-auto d-block d-xl-none">
                                             <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
-                                                    class="far fa-trash-alt ft_5 ml-1 black-color"></i>
+                                                    class="far fa-trash-alt ml-1"></i>
                                                 <span>حذف</span></button>
                                         </div>
                                         <div class="my-auto d-block d-xl-none">
@@ -387,7 +387,7 @@
                                     <div class="d-block d-sm-none mt-5">
                                         <div class="my-auto d-block d-xl-none">
                                             <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
-                                                    class="far fa-trash-alt ft_5 ml-1 black-color"></i>
+                                                    class="far fa-trash-alt ml-1"></i>
                                                 <span>حذف</span></button>
                                         </div>
                                         <div class="my-auto d-block d-xl-none">
@@ -438,7 +438,7 @@
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
                                                     <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
-                                                            class="far fa-trash-alt ft_5 ml-1 black-color"></i>
+                                                            class="far fa-trash-alt ml-1"></i>
                                                         <span>حذف</span></button>
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
@@ -475,9 +475,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
-                                                    <a href="#" data-toggle="modal" data-target="#exampleModal"><i
-                                                            class="far fa-trash-alt ft_5 ml-1"></i><span
-                                                            class="ft_6">حذف</span></a>
+                                                    <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
+                                                            class="far fa-trash-alt ml-1"></i><span
+                                                            class="ft_6">حذف</span></button>
                                                 </div>
                                                 <div class="my-auto d-none d-xl-block">
                                                     <a href="#">
@@ -495,7 +495,7 @@
                                     <div class="mt-3 d-none d-sm-flex">
                                         <div class="my-auto d-block d-xl-none">
                                             <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
-                                                    class="far fa-trash-alt ft_5 ml-1 black-color"></i>
+                                                    class="far fa-trash-alt ml-1"></i>
                                                 <span>حذف</span></button>
                                         </div>
                                         <div class="my-auto d-block d-xl-none">
@@ -507,7 +507,7 @@
                                     <div class="d-block d-sm-none mt-5">
                                         <div class="my-auto d-block d-xl-none">
                                             <button class="delete-item" data-toggle="modal" data-target="#exampleModal"><i
-                                                    class="far fa-trash-alt ft_5 ml-1 black-color"></i>
+                                                    class="far fa-trash-alt ml-1"></i>
                                                 <span>حذف</span></button>
                                         </div>
                                         <div class="my-auto d-block d-xl-none">

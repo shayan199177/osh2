@@ -2285,6 +2285,10 @@ input[type=range]::-ms-thumb {
     padding: 5px 15px;
     background: #fdfdfd;
 }
+.font-700{
+    font-weight: 700;
+}
+
 /*  media query  */
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 576px) {
