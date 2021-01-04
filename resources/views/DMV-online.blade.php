@@ -19,13 +19,13 @@
                     </ol>
                     <div class="carousel-inner inner-dmv">
                         <div class="carousel-item active">
-                            <img class="d-block" src="temp/product/fish/8.jpg" alt="First slide">
+                            <img class="d-block" src="temp/Services/hospital/images.jpg" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block" src="temp/product/fish/7.jpg" alt="Second slide">
+                            <img class="d-block" src="temp/Services/hospital/images(1).jpg" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block" src="temp/product/dog/2.jpg" alt="Third slide">
+                            <img class="d-block" src="temp/Services/hospital/unnamed.jpg" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
