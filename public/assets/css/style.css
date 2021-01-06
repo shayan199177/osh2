@@ -2288,7 +2288,13 @@ input[type=range]::-ms-thumb {
 .font-700{
     font-weight: 700;
 }
-
+.width-detail-card{
+    padding: 0 17px;
+}
+.font-pill-detail-card{
+    font-size: 10px;
+    line-height: normal;
+}
 /*  media query  */
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 576px) {
