@@ -16,10 +16,10 @@
                             <div class="d-flex">
                                 <p class="align-self-center">1</p>
                                 <p class="pr-1 align-self-center">مهر</p>
-                                <p class="pr-1 align-self-center">1398</p><i
-                                    class="fas fa-circle align-self-center px-2 gray-color small-s"></i>
-                                <p class="align-self-center small">SH239998</p><i
-                                    class="fas fa-circle align-self-center px-2 gray-color small-s"></i>
+                                <p class="pr-1 align-self-center">1398</p>
+                                <p class="mx-2">|</p>
+                                <p class="align-self-center small">SH239998</p>
+                                <p class="mx-2">|</p>
                                 <p class="pr-1 yellow-color small align-self-center">در حال ارسال...</p>
                             </div>
                             <div class="text-right d-flex mt-2"><p class="gray-color small align-self-center">مبلغ کل:</p>
@@ -40,10 +40,10 @@
                             <div class="d-flex">
                                 <p class="align-self-center">23</p>
                                 <p class="pr-1 align-self-center">خرداد</p>
-                                <p class="pr-1 align-self-center">1398</p><i
-                                    class="fas fa-circle align-self-center px-2 gray-color small-s"></i>
-                                <p class="align-self-center small">SH239998</p><i
-                                    class="fas fa-circle align-self-center px-2 gray-color small-s"></i>
+                                <p class="pr-1 align-self-center">1398</p>
+                                <p class="mx-2">|</p>
+                                <p class="align-self-center small">SH239998</p>
+                                <p class="mx-2">|</p>
                                 <p class="pr-1 green-color small align-self-center">تحویل داده شده</p>
                             </div>
                             <div class="text-right d-flex mt-2"><p class="gray-color small align-self-center">مبلغ کل:</p>
@@ -64,10 +64,10 @@
                             <div class="d-flex">
                                 <p class="align-self-center">17</p>
                                 <p class="pr-1 align-self-center">شهریور</p>
-                                <p class="pr-1 align-self-center">1398</p><i
-                                    class="fas fa-circle align-self-center px-2 gray-color small-s"></i>
-                                <p class="align-self-center small">SH236668</p><i
-                                    class="fas fa-circle align-self-center px-2 gray-color small-s"></i>
+                                <p class="pr-1 align-self-center">1398</p>
+                                <p class="mx-2">|</p>
+                                <p class="align-self-center small">SH236668</p>
+                                <p class="mx-2">|</p>
                                 <p class="pr-1 green-color small align-self-center">تحویل داده شده</p>
                             </div>
                             <div class="text-right d-flex mt-2"><p class="gray-color small align-self-center">مبلغ کل:</p>
@@ -88,10 +88,10 @@
                             <div class="d-flex">
                                 <p class="align-self-center">1</p>
                                 <p class="pr-1 align-self-center">مهر</p>
-                                <p class="pr-1 align-self-center">1398</p><i
-                                    class="fas fa-circle align-self-center px-2 gray-color small-s"></i>
-                                <p class="align-self-center small">SH239998</p><i
-                                    class="fas fa-circle align-self-center px-2 gray-color small-s"></i>
+                                <p class="pr-1 align-self-center">1398</p>
+                                <p class="mx-2">|</p>
+                                <p class="align-self-center small">SH239998</p>
+                                <p class="mx-2">|</p>
                                 <p class="pr-1 green-color small align-self-center">تحویل داده شده</p>
                             </div>
                             <div class="text-right d-flex mt-2"><p class="gray-color small align-self-center">مبلغ کل:</p>
