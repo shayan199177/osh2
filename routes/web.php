@@ -11,3 +11,4 @@ Route::view('profile-setting', 'profile-setting');
 Route::view('my-orders-service', 'my-orders-service');
 Route::view('my-orders', 'my-orders');
 Route::view('detail-orders', 'detail-orders');
+Route::view('index', 'index');
