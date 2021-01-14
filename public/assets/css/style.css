@@ -2097,7 +2097,6 @@ input[type=range]::-ms-thumb {
     font-weight: 400;
     line-height: 1;
     height: 35px;
-    padding-right: 15px !important;
     color: #323232 !important;
     background-color: #fff;
     background-clip: padding-box;
@@ -2125,29 +2124,22 @@ input[type=range]::-ms-thumb {
     font-weight: 400;
     line-height: 1.5;
     height: 100px;
-    padding-right: 15px !important;
-    padding-top: 7px !important;
     color: #323232 !important;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #c4c4c4 !important;
     border-radius: .5rem;
-    font-size: 0.92rem !important;
+    font-size: 0.88rem !important;
 }
 
 .form-control-profile-add:focus {
     display: block;
     width: 100% !important;
     font-weight: 400;
-    line-height: 1;
-    height: 100px;
-    padding-right: 15px !important;
     color: #323232 !important;
     background-color: #fff;
     background-clip: padding-box;
     border: 2px solid #f1c40f !important;
-    border-radius: .5rem;
-    font-size: 0.92rem !important;
 }
 
 .form-pr {
