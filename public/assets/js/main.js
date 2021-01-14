@@ -1,5 +1,7 @@
+const body = $('body');
+
 // add padding top to show content behind navbar
-$('body').css('padding-top', $('.navbar').outerHeight(85) + 'px');
+body.css('padding-top', $('.navbar').outerHeight(85) + 'px');
 
 
 /**
@@ -24,14 +26,11 @@ $('body').css('padding-top', $('.navbar').outerHeight(85) + 'px');
     let ScrollToTopBtn = document.getElementById("scroll-to-top");
     ScrollToTopBtn.addEventListener('click', topFunction)
     window.onscroll = scrollFunction;
-})()
-
-
-
+})();
 
 
 (function($) {
-    var defaults={
+    const defaults={
         sm : 540,
         md : 720,
         lg : 960,
@@ -45,9 +44,11 @@ $('body').css('padding-top', $('.navbar').outerHeight(85) + 'px');
         if(screen_width >= defaults.lg){
             $(this).find('.dropdown').hover(function() {
                 $(this).addClass('show');
-                $(this).find('.dropdown-menu').first().addClass('show').addClass('animated fadeIn').one('animationend oAnimationEnd mozAnimationEnd webkitAnimationEnd', function () {
-                    $(this).removeClass('animated fadeIn');
-                });
+                $(this).find('.dropdown-menu').first()
+                    .addClass('show').addClass('animated fadeIn')
+                    .one('animationend oAnimationEnd mozAnimationEnd webkitAnimationEnd', function () {
+                        $(this).removeClass('animated fadeIn');
+                    });
             }, function() {
                 $(this).removeClass('show');
                 $(this).find('.dropdown-menu').first().removeClass('show');
@@ -71,15 +72,15 @@ $('body').css('padding-top', $('.navbar').outerHeight(85) + 'px');
 })(jQuery);
 
 
-// x zoom
-
 $(document).ready(function () {
-    $(".xzoom").xzoom();
+    // init xzoom
+    const xzoomElement = $(".xzoom");
+    if (xzoomElement.length) xzoomElement.xzoom();
 });
 
 
-$('body').on('mouseenter mouseleave','.dropdown',function(e){
-    var _d=$(e.target).closest('.dropdown');
+body.on('mouseenter mouseleave','.dropdown',function(e){
+    let _d=$(e.target).closest('.dropdown');
     if (e.type === 'mouseenter')_d.addClass('show');
     setTimeout(function(){
         _d.toggleClass('show', _d.is(':hover'));
