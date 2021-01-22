@@ -588,7 +588,7 @@ topnav .active {
 }
 
 .logo_size_30 {
-    height: 30px;
+    width: 190px;
 }
 
 .a-link-header {
@@ -2357,7 +2357,7 @@ input[type=range]::-ms-thumb {
     }
 
     .h-nav-top {
-        height: 50px;
+        height: 45px;
         top: 67px;
         z-index: unset;
         width: 100%;
@@ -2365,7 +2365,7 @@ input[type=range]::-ms-thumb {
 
     .smart-scroll {
         position: unset;
-        top: 65px;
+        top: 61px;
         z-index: 1010;
     }
 

@@ -1,12 +1,12 @@
 <div class="container-fluid bg-main sticky-top">
   <div class="container">
     <div class="row align-items-center justify-content-between">
-      <div class="col-md-3 col-lg-3 col-xl-2 order-md-1 order-lg-1 py-2 py-lg-3 text-center text-md-right">
+      <div class="col-md-3 col-lg-3 col-xl-2 order-md-1 order-lg-1 py-2 text-center text-md-right">
         <a href="../index.html">
-          <img src="{!! asset('assets/images/shayanpet-logo.png') !!}" class="logo_size_30" alt="shayanpet">
+          <img src="{!! asset('assets/images/logo-shayanpet.png') !!}" class="logo_size_30" alt="shayanpet">
         </a>
       </div>
-      <div class="col-md-8 col-lg-5 col-xl-6 order-md-2 order-lg-2 py-md-2 justify-content-start pb-2 py-lg-3">
+      <div class="col-md-8 col-lg-5 col-xl-6 order-md-2 order-lg-2 py-md-2 justify-content-start pb-2">
         <form class="form-inline justify-content-start">
           <input class="form-control input-search" type="search"
                  placeholder="دسته یا محصول خود را پیدا کن..."
