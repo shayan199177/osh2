@@ -64,7 +64,7 @@
           </form>
         </div>
         <div class="col-md-12 order-2 d-none d-md-block">
-          <img src="{!! asset('assets/images/shayanpet-logo.png') !!}" class="small-logo-footer" alt="shayanpet">
+          <img src="{!! asset('assets/images/logo-shayanpet-w.png') !!}" class="small-logo-footer" alt="shayanpet">
         </div>
       </div>
     </div>
