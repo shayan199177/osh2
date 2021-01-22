@@ -58,7 +58,7 @@ textarea:focus, select:focus {
 .smart-scroll {
     position: sticky;
     position: -webkit-sticky;
-    top: 65px;
+    top: 51px;
     z-index: 1010;
 }
 
@@ -499,7 +499,6 @@ topnav .active {
     white-space: nowrap;
     background-color: transparent;
     border: 0;
-    font-weight: 700;
     font-size: 14px;
 }
 
@@ -562,7 +561,7 @@ topnav .active {
 }
 
 .user-menu-dropdown {
-    top: 62px !important;
+    top: 46px !important;
     transform: none !important;
     width: 210px !important;
 }
@@ -2365,7 +2364,7 @@ input[type=range]::-ms-thumb {
 
     .smart-scroll {
         position: unset;
-        top: 61px;
+        top: 51px;
         z-index: 1010;
     }
 
@@ -2424,7 +2423,7 @@ input[type=range]::-ms-thumb {
 
     .smart-scroll {
         position: unset;
-        top: 65px;
+        top: 51pxpx;
         z-index: 1010;
     }
 

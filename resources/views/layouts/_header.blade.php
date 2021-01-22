@@ -17,7 +17,7 @@
         </form>
       </div>
 
-      <div class="d-none d-lg-flex col-lg-4 col-xl-4 order-lg-3 py-2 align-items-center justify-content-end">
+      <div class="d-none d-lg-flex col-lg-4 col-xl-4 order-lg-3 align-items-center justify-content-end">
         <div class="ml-4 profile">
           <button class="btn btn-s dropdown-toggle" type="button" id="profileDropdown"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
