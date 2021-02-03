@@ -8,7 +8,7 @@
 
 @section('content')
     <div class="container-fluid">
-        <div class="container mt-4 mb-5">
+        <div class="container pt-4 pb-5">
             <div class="row">
                 <div class="col-8">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -52,7 +52,7 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-main">
+    <div class="container-fluid">
         <div class="container">
             <div class="row d-flex">
                 <div class="col my-5 box-index-1 mx-lg-2">
@@ -70,12 +70,19 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid bg-main">
+        <div class="container">
+            <div class="row d-flex">
+               sdsds
+            </div>
+        </div>
+    </div>
 
-    <div class="container-fluid bg-white">
-        <div class="container bg-white">
+    <div class="container-fluid bg-danger">
+        <div class="container bg-danger">
             <div class="col-12 pt-5">
                 <div class="text-center border-bottom">
-                    <h6 class="h4 pb-2">تخفیف های ویژه</h6>
+                    <h6 class="h4 pb-2 w-color font-700">تخفیف های ویژه</h6>
                 </div>
             </div>
             <div class="col-12">
@@ -270,14 +277,32 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid bg-white">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col py-5 px-lg-1">
+                    <img src="temp/index/aqua.jpg" class="w-100 img-index" alt="dog">
+                </div>
 
+                <div class="col py-5 px-lg-1">
+                    <img src="temp/index/cat.jpg" class="w-100 img-index" alt="cat">
+                </div>
+
+            </div>
+        </div>
+    </div>
     <div class="container-fluid bg-black">
         <div class="container height-slider">
 
         </div>
     </div>
-
     <div class="container-fluid bg-main">
+        <div class="container height-slider">
+
+        </div>
+    </div>
+
+    <div class="container-fluid bg-white">
         <div class="container height-slider">
 
         </div>

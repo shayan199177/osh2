@@ -146,6 +146,10 @@ select {
     background: #f1c40f;
 }
 
+.bg-blue {
+    background: #3498db;
+}
+
 .bg-black{
     background: #0b0b0b;
 }
