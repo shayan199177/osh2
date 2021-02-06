@@ -14,4 +14,6 @@ Route::view('my-orders', 'my-orders');
 Route::view('detail-orders', 'detail-orders');
 Route::view('index', 'index');
 Route::view('empty-basket', 'empty-basket');
-Route::view('new-user', 'new-user');
+Route::view('register', 'register');
+Route::view('login', 'login');
+Route::view('my-interest', 'my-interest');
