@@ -97,12 +97,8 @@
                     <input type="password" class="form-control form-control-profile px-2 py-1"
                            id="exampleInputPassword2">
                 </div>
-                <div class="text-center mx-4 mx-md-5 mt-4 mb-3">
+                <div class="text-center mx-4 mx-md-5 mt-5 mb-4">
                     <button type="submit" class="btn btn-success btn-sm btn-block py-2">ثبت نام</button>
-                </div>
-                <div class="text-center mx-4 mx-md-5">
-                    <button type="submit" class="btn btn-sm btn-block border py-2">ورود با گوگل<img
-                            src="temp/index/google.png" alt="" class="google-size"></button>
                 </div>
                 <p class="text-inverse text-center small mt-3">یه حساب کاربری دارید؟<a href="#" data-abc="true"
                                                                                        class="pr-2">وارد شوید</a>

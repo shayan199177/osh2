@@ -84,7 +84,7 @@
                     </a>
                 </div>
                 <div class="form-group mx-4 mx-md-5 mx-lg-5">
-                    <label for="exampleInputEmail1" class="small">شماره موبایل یا پست الکترونیک خود را وارد کنید</label>
+                    <label for="exampleInputEmail1" class="small">شماره موبایل یا ایمیل خود را وارد کنید</label>
                     <input type="email" class="form-control form-control-profile px-2 py-1" id="exampleInputEmail1">
                 </div>
                 <div class="form-group mx-4 mx-md-5 mx-lg-5">
@@ -92,17 +92,14 @@
                     <input type="password" class="form-control form-control-profile px-2 py-1"
                            id="exampleInputPassword1">
                 </div>
-                <div class="text-center mx-4 mx-md-5 mt-4 mb-3">
+                <div class="text-center mx-4 mx-md-5 mt-5 mb-4">
                     <button type="submit" class="btn btn-success btn-sm btn-block py-2">ورود به شایان پت</button>
                 </div>
-                <div class="text-center mx-4 mx-md-5">
-                    <button type="submit" class="btn btn-sm btn-block border py-2">ورود با گوگل<img
-                            src="temp/index/google.png" alt="" class="google-size"></button>
-                </div>
+
                 <p class="text-inverse text-center small mt-3">حساب کاربری ندارید؟<a href="#" data-abc="true"
                                                                                        class="pr-2">ثبت نام کنید</a>
                 </p>
-                <p class="text-justify small gray-color px-4">با ورود و یا ثبت نام در شایان پت شما <a href="#"
+                <p class="text-justify small gray-color px-4 mt-3">با ورود و یا ثبت نام در شایان پت شما <a href="#"
                                                                                                       data-abc="true">شرایط
                         و قوانین</a> استفاده از
                     سرویس های سایت شایان پت و <a href="#" data-abc="true">قوانین حریم خصوصی</a> آن را می‌پذیرید.
