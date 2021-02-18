@@ -84,7 +84,7 @@
                     </a>
                 </div>
                 <div class="form-group mx-4 mx-md-5 mx-lg-5">
-                    <label for="exampleInputEmail1" class="small">شماره موبایل یا پست الکترونیک خود را وارد کنید</label>
+                    <label for="exampleInputEmail1" class="small">شماره موبایل یا ایمیل خود را وارد کنید</label>
                     <input type="email" class="form-control form-control-profile px-2 py-1" id="exampleInputEmail1">
                 </div>
                 <div class="form-group mx-4 mx-md-5 mx-lg-5">
