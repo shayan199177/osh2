@@ -958,6 +958,15 @@ topnav .active {
     height: 40px;
     overflow-y: hidden;
 }
+.h-177{
+    height: 177px;
+}
+.carousel-item-title-interest {
+    height: 115px;
+    width: 122px;
+    overflow-y: hidden;
+    overflow-x: hidden
+}
 .test2 {
     height: auto;
     width: 100%;
