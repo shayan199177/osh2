@@ -35,7 +35,7 @@
                     <div class="col-12 border-bottom-c3"><h5 class="h6">آدرس تحویل سفارش</h5>
                     </div>
                 </div>
-                <div class="col-12 mb-3">
+                <div class="col-12 col-lg-8 col-xl-9 mb-3">
                     <div class="card card-basket">
                         <div class="col-12 text-right mt-4 mb-2">
                             <div class="d-flex justify-content-between">
@@ -43,8 +43,8 @@
                             </div>
                             <div class="col-12">
                                 <div class="mb-5">
-                                    <div class="alert alert-danger mt-4 py-5" role="alert">
-                                        <p class="text-justify">هنوز هیچ آدرسی ثبت نکرده اید! برای ادامه ی فرآیند خرید آدرس خود را ثبت کنید.</p>
+                                    <div class="alert border mt-1 px-1 py-3" role="alert">
+                                        <p class="text-justify small px-2">هنوز هیچ آدرسی ثبت نکرده اید! برای ادامه ی فرآیند خرید آدرس خود را ثبت کنید.</p>
                                         <div class="mt-4 mb-2 text-center"><button href="#" class="btn btn-success small"><i class="fas fa-pencil-alt ml-2"></i>افزودن آدرس</button></div>
                                     </div>
                                 </div>
@@ -86,8 +86,8 @@
                         </div>
                     </div>
                 </div>
-{{--                <div class="col-12 order-1 order-lg-2 col-lg-4 col-xl-3 mb-3">--}}
-{{--                    <div class="card card-basket">--}}
+                <div class="col-12 order-1 order-lg-2 col-lg-4 col-xl-3 mb-3">
+                    <div class="card card-basket">
 {{--                        <div class="col-12 text-right mt-4">--}}
 {{--                            <div class="col-12 d-flex"><h5 class="small">قیمت کالاها</h5>--}}
 {{--                                <div class="d-flex left-price-basket">--}}
@@ -117,11 +117,11 @@
 {{--                                </div>--}}
 {{--                            </div>--}}
 {{--                        </div>--}}
-{{--                        <div class="text-center my-4">--}}
-{{--                            <button class="card-link button-buy">تایید و ادامه</button>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+                        <div class="text-center my-4">
+                            <button class="btn btn-warning" disabled>ابتدا آدرس خود را وارد نمایید</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
