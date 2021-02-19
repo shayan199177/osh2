@@ -1,14 +1,6 @@
 @extends('layouts.shop')
 @push('styles')
     <link href="{!! asset('assets/libs/owl-carousel/owl.carousel.min.css') !!}" rel="stylesheet">
-    <style>
-        .carousel-item-title-interest {
-            height: 115px;
-            width: 119px !important;
-            overflow-y: hidden;
-            overflow-x: hidden;
-        }
-    </style>
 @endpush
 
 @section('content')
@@ -38,80 +30,83 @@
 
                                 <div class="row px-2">
 
-                                    <div class="col-12 col-lg-6 my-1">
-                                        <div class="col bg-white border rounded h-177">
-                                            <div class="float-right">
-                                                <a href="#"><img src="temp/product/dog/2.jpg" alt="shayanPet"
-                                                                 class="img-item mx-auto py-3"></a>
-                                            </div>
-                                            <div class="carousel-item-title-interest float-right mr-1 mt-4">
-                                                <a href="#" class="text-right text-decoration-none">
-                                                    <h6 class="black-color">غذای خشک رویال</h6>
-                                                    <h4 class="sub-item-page">20 کیلویی</h4>
-                                                </a>
-                                                <div class="d-flex"><p class="toman-price-off align-self-center">
-                                                        3,0۵۰,۰۰۰</p>
-                                                    <span
-                                                        class="badge badge-danger badge-pill mr-2 font-size-08rem-color-w font-pill-detail-card">60٪</span>
-                                                </div>
-                                                <div class="d-flex text-right">
-                                                    <p class="black-color">1,200,۰۰۰</p><span
-                                                        class="toman-price small align-self-center">تومان</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="col-12 col-lg-6 my-1">
-                                        <div class="col bg-white border rounded h-177">
-                                            <div class="float-right">
-                                                <a href="#"><img src="temp/product/cat/2.jpg" alt="shayanPet"
-                                                                 class="img-item mx-auto py-3"></a>
-                                            </div>
-                                            <div class="carousel-item-title-interest float-right mr-1 mt-4">
-                                                <a href="#" class="text-right text-decoration-none">
-                                                    <h6 class="black-color">غذای خشک گربه رویال</h6>
-                                                    <h4 class="sub-item-page">20 کیلویی</h4>
-                                                </a>
-                                                <div class="d-flex"><p class="toman-price-off align-self-center">
-                                                        6۵۰,۰۰۰</p>
-                                                    <span
-                                                        class="badge badge-danger badge-pill mr-2 font-size-08rem-color-w font-pill-detail-card">30٪</span>
-                                                </div>
-                                                <div class="d-flex text-right">
-                                                    <p class="black-color">450,۰۰۰</p><span
-                                                        class="toman-price small align-self-center">تومان</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-
-                                    <div class="col-12 col-lg-6 my-1">
-                                        <div class="col bg-white border rounded h-177">
-                                            <div class="float-right">
+                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-1">
+                                        <div class="col bg-white border rounded h-auto alert alert-dismissible fade show" role="alert">
+                                            <div>
                                                 <a href="#"><img src="temp/product/fish/7.jpg" alt="shayanPet"
-                                                                 class="img-item mx-auto py-3"></a>
+                                                                 class="img-item mx-auto position-img-interest"></a>
                                             </div>
-                                            <div class="carousel-item-title-interest float-right mr-1 mt-4">
+                                            <div class="carousel-item-title-interest d-flex">
                                                 <a href="#" class="text-right text-decoration-none">
-                                                    <h6 class="black-color">تانک آکواریوم</h6>
-                                                    <h4 class="sub-item-page">200 لیتری</h4>
+                                                    <h6 class="black-color">غذای خشک گربه رویال برای بزرگسال</h6>
                                                 </a>
-                                                <div class="d-flex"><p class="toman-price-off align-self-center">
-                                                        2,07۰,۰۰۰</p>
-                                                    <span
-                                                        class="badge badge-danger badge-pill mr-2 font-size-08rem-color-w font-pill-detail-card">67٪</span>
-                                                </div>
-                                                <div class="d-flex text-right">
-                                                    <p class="black-color">890,۰۰۰</p><span
-                                                        class="toman-price small align-self-center">تومان</span>
-                                                </div>
+                                                <h4 class="sub-item-page mr-2">20 کیلویی</h4>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="toman-price-off align-self-center">
+                                                    3,0۵۰,۰۰۰</p>
+                                                <span
+                                                    class="badge badge-danger badge-pill mr-2 font-size-08rem-color-w font-pill-detail-card">60٪</span>
+                                            </div>
+                                            <div class="d-flex text-right">
+                                                <p class="black-color">1,200,۰۰۰</p><span
+                                                    class="toman-price small align-self-center">تومان</span>
                                             </div>
                                         </div>
                                     </div>
+
+
+                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-1">
+                                        <div class="col bg-white border rounded h-auto alert alert-dismissible fade show" role="alert">
+                                            <div>
+                                                <a href="#"><img src="temp/product/fish/7.jpg" alt="shayanPet"
+                                                                 class="img-item mx-auto position-img-interest"></a>
+                                            </div>
+                                            <div class="carousel-item-title-interest d-flex">
+                                                <a href="#" class="text-right text-decoration-none">
+                                                    <h6 class="black-color">غذای خشک گربه رویال برای بزرگسال</h6>
+                                                </a>
+                                                <h4 class="sub-item-page mr-2">20 کیلویی</h4>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="toman-price-off align-self-center">
+                                                    3,0۵۰,۰۰۰</p>
+                                                <span
+                                                    class="badge badge-danger badge-pill mr-2 font-size-08rem-color-w font-pill-detail-card">60٪</span>
+                                            </div>
+                                            <div class="d-flex text-right">
+                                                <p class="black-color">1,200,۰۰۰</p><span
+                                                    class="toman-price small align-self-center">تومان</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 my-1">
+                                        <div class="col bg-white border rounded h-auto alert alert-dismissible fade show" role="alert">
+                                            <div>
+                                                <a href="#"><img src="temp/product/fish/7.jpg" alt="shayanPet"
+                                                                 class="img-item mx-auto position-img-interest"></a>
+                                            </div>
+                                            <div class="carousel-item-title-interest d-flex">
+                                                <a href="#" class="text-right text-decoration-none">
+                                                    <h6 class="black-color">غذای خشک گربه رویال برای بزرگسال</h6>
+                                                </a>
+                                                <h4 class="sub-item-page mr-2">20 کیلویی</h4>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="toman-price-off align-self-center">
+                                                    3,0۵۰,۰۰۰</p>
+                                                <span
+                                                    class="badge badge-danger badge-pill mr-2 font-size-08rem-color-w font-pill-detail-card">60٪</span>
+                                            </div>
+                                            <div class="d-flex text-right">
+                                                <p class="black-color">1,200,۰۰۰</p><span
+                                                    class="toman-price small align-self-center">تومان</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
 
                                 </div>
 
