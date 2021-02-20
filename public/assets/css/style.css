@@ -596,7 +596,7 @@ topnav .active {
 
 .a-link-header {
     font-size: 14px;
-    color: #3c3c3c;
+    color: #000000;
     transition: all, 0.3s;
     padding: 20px 0;
 }

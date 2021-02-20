@@ -17,3 +17,4 @@ Route::view('empty-basket', 'empty-basket');
 Route::view('register', 'register');
 Route::view('login', 'login');
 Route::view('my-interest', 'my-interest');
+Route::view('items-product', 'items-product');
