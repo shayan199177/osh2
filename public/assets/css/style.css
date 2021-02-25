@@ -962,8 +962,7 @@ topnav .active {
     height: 195px;
 }
 .carousel-item-title-interest {
-    margin-top: 155px;
-    height: 38px;
+    height: 70px;
     overflow-y: hidden;
     overflow-x: hidden;
 }

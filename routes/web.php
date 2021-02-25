@@ -18,3 +18,6 @@ Route::view('register', 'register');
 Route::view('login', 'login');
 Route::view('my-interest', 'my-interest');
 Route::view('items-product', 'items-product');
+Route::view('pay-success', 'pay-success');
+Route::view('pay-fail', 'pay-fail');
+Route::view('video-article', 'video-article');
