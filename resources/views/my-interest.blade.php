@@ -32,7 +32,7 @@
             <div class="col-12 mb-4">
                 <div class="row">
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-3 px-md-1 p-1">
                         <div class="bg-white border rounded h-auto alert alert-dismissible fade show text-center" role="alert">
                             <div>
                                 <a href="#"><img src="temp/product/fish/7.jpg" alt="shayanPet"
@@ -51,7 +51,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-3 px-md-1 p-1">
                         <div class="bg-white border rounded h-auto alert alert-dismissible fade show text-center" role="alert">
                             <div>
                                 <a href="#"><img src="temp/product/fish/8.jpg" alt="shayanPet"
@@ -70,7 +70,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-3 px-md-1 p-1">
                         <div class="bg-white border rounded h-auto alert alert-dismissible fade show text-center" role="alert">
                             <div>
                                 <a href="#"><img src="temp/product/cat/2.jpg" alt="shayanPet"
@@ -89,7 +89,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-3 px-md-1 p-1">
                         <div class="bg-white border rounded h-auto alert alert-dismissible fade show text-center" role="alert">
                             <div>
                                 <a href="#"><img src="temp/product/cat/1.jpg" alt="shayanPet"
@@ -108,7 +108,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-3 px-md-1 p-1">
                         <div class="bg-white border rounded h-auto alert alert-dismissible fade show text-center" role="alert">
                             <div>
                                 <a href="#"><img src="temp/product/dog/2.jpg" alt="shayanPet"
@@ -127,7 +127,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-3 px-md-1 p-1">
                         <div class="bg-white border rounded h-auto alert alert-dismissible fade show text-center" role="alert">
                             <div>
                                 <a href="#"><img src="temp/product/dog/3.jpg" alt="shayanPet"
@@ -146,7 +146,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-3 px-md-1 p-1">
                         <div class="bg-white border rounded h-auto alert alert-dismissible fade show text-center" role="alert">
                             <div>
                                 <a href="#"><img src="temp/product/dog/4.jpg" alt="shayanPet"

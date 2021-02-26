@@ -30,7 +30,7 @@
 
             <div class="col-12 col-md-9">
                 <div class="row">
-                    <div class="col-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-3 px-sm-1 p-1">
                         <div class="category-h240 zoom-items-pageItem">
                             <div class="mb-2 text-center">
                                 <a href="#">
@@ -58,7 +58,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-3 px-sm-1 p-1">
                         <div class="category-h240 zoom-items-pageItem">
                             <div class="mb-2 text-center">
                                 <a href="#">
@@ -86,7 +86,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-3 px-sm-1 p-1">
                         <div class="category-h240 zoom-items-pageItem">
                             <div class="mb-2 text-center">
                                 <a href="#">
@@ -114,7 +114,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-3 px-sm-1 p-1">
                         <div class="category-h240 zoom-items-pageItem">
                             <div class="mb-2 text-center">
                                 <a href="#">
@@ -142,7 +142,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-3 px-sm-1 p-1">
                         <div class="category-h240 zoom-items-pageItem">
                             <div class="mb-2 text-center">
                                 <a href="#">
@@ -170,7 +170,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-3 px-sm-1 p-1">
                         <div class="category-h240 zoom-items-pageItem">
                             <div class="mb-2 text-center">
                                 <a href="#">
@@ -198,7 +198,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-3 px-sm-1 p-1">
                         <div class="category-h240 zoom-items-pageItem">
                             <div class="mb-2 text-center">
                                 <a href="#">
@@ -226,7 +226,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-3 px-sm-1 p-1">
                         <div class="category-h240 zoom-items-pageItem">
                             <div class="mb-2 text-center">
                                 <a href="#">
@@ -254,7 +254,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-3 px-sm-1 p-1">
                         <div class="category-h240 zoom-items-pageItem">
                             <div class="mb-2 text-center">
                                 <a href="#">
@@ -282,7 +282,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-4 col-xl-3 p-1">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-3 px-sm-1 p-1">
                         <div class="category-h240 zoom-items-pageItem">
                             <div class="mb-2 text-center">
                                 <a href="#">
