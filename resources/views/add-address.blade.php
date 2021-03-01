@@ -35,7 +35,7 @@
                     <div class="col-12 border-bottom-c3"><h5 class="h6">آدرس تحویل سفارش</h5>
                     </div>
                 </div>
-                <div class="col-12 col-lg-8 col-xl-9 mb-3">
+                <div class="col-12 mb-3">
                     <div class="card card-basket">
                         <div class="col-12 text-right mt-4 mb-2">
                             <div class="d-flex justify-content-between">
@@ -43,82 +43,19 @@
                             </div>
                             <div class="col-12">
                                 <div class="mb-5">
-                                    <div class="alert border mt-1 px-1 py-3" role="alert">
-                                        <p class="text-justify small px-2">هنوز هیچ آدرسی ثبت نکرده اید! برای ادامه ی فرآیند خرید آدرس خود را ثبت کنید.</p>
+                                    <div class="mt-1 px-1 py-3">
+                                        <div class="text-center"><img src="temp/Services/address/address.jpg" class="p-3" style="height: 145px;" alt="empty-basket"></div>
+                                        <p class="text-justify text-md-center small px-2">هنوز هیچ آدرسی ثبت نکرده اید! برای ادامه ی فرآیند خرید آدرس خود را ثبت کنید.</p>
                                         <div class="mt-4 mb-2 text-center"><button href="#" class="btn btn-success small"><i class="fas fa-pencil-alt ml-2"></i>افزودن آدرس</button></div>
                                     </div>
                                 </div>
                             </div>
 
-{{--                            <!--                        نحوه ارسال-->--}}
-{{--                            <p class="mb-2"><i class="fas fa-truck ml-2"></i>نحوه ارسال سفارش</p>--}}
-{{--                            <div class="col-12 mb-5">--}}
-{{--                                <div class="form-check text-justify mt-4">--}}
-{{--                                    <input class="form-check-input" type="radio" name="exampleRadios2"--}}
-{{--                                           id="exampleRadios3" value="option1" checked>--}}
-{{--                                    <label class="form-check-label mr-4 font-88" for="exampleRadios3">--}}
-{{--                                        پیک شایان پت--}}
-{{--                                    </label>--}}
-{{--                                    <p class="small mr-4 my-2">(ارسال سریع مخصوص شهرهای تهران و کرج ۳۲,۳۰۰ تومان)</p>--}}
-{{--                                </div>--}}
-{{--                                <div class="form-check">--}}
-{{--                                    <input class="form-check-input" type="radio" name="exampleRadios2"--}}
-{{--                                           id="exampleRadios4" value="option2">--}}
-{{--                                    <label class="form-check-label mr-4 font-88" for="exampleRadios4">--}}
-{{--                                        پست پیشتاز--}}
-{{--                                    </label>--}}
-{{--                                    <p class="small mr-4 my-2">(یک تا سه روز کاری ۳۲,۳۰۰ تومان)</p>--}}
-{{--                                </div>--}}
-{{--                                <div class="form-check disabled">--}}
-{{--                                    <input class="form-check-input" type="radio" name="exampleRadios2"--}}
-{{--                                           id="exampleRadios5" value="option3" disabled>--}}
-{{--                                    <label class="form-check-label mr-4 font-88" for="exampleRadios5">--}}
-{{--                                        ارسال رایگان--}}
-{{--                                    </label>--}}
-{{--                                    <p class="small mr-4 my-2">(خرید بالای ۳۰۰ هزار تومان)</p>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
                             <div class="col-12 text-right mt-2 mb-3 border-top-c3">
                                 <p class="small gray-color mb-2 mt-2 text-justify"><i
                                         class="fas fa-exclamation-circle ml-2"></i>برای افزودن یا ویرایش آدرس خود از منوی
                                     تنظیمات حساب کاربری استفاده نمایید.</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 order-1 order-lg-2 col-lg-4 col-xl-3 mb-3">
-                    <div class="card card-basket">
-{{--                        <div class="col-12 text-right mt-4">--}}
-{{--                            <div class="col-12 d-flex"><h5 class="small">قیمت کالاها</h5>--}}
-{{--                                <div class="d-flex left-price-basket">--}}
-{{--                                    <h6 class="price-font my-auto small">۳۲۹,۳۰۰,۳۰۰<span--}}
-{{--                                            class="toman-price my-auto small">تومان</span></h6>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <div class="col-12 text-right mt-2 mb-3">--}}
-{{--                            <div class="col-12 d-flex"><p class="small mb-2"><i class="fas fa-truck ml-2"></i>هزینه ارسال--}}
-{{--                                </p>--}}
-{{--                                <div class="d-flex left-price-basket">--}}
-{{--                                    <h6 class="price-font my-auto small">۳۲,۳۰۰<span--}}
-{{--                                            class="toman-price my-auto small">تومان</span></h6>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <div class="text-center mb-3">--}}
-{{--                            <a href="basket.html" class="card-link button-return-2"><i class="fas fa-undo pl-2"></i>بازگشت--}}
-{{--                                به مرحله قبل</a>--}}
-{{--                        </div>--}}
-{{--                        <div class="col-12 text-right my-1">--}}
-{{--                            <div class="col-12 d-flex border-top-c3"><h6 class="small pt-3">مبلغ قابل پرداخت</h6>--}}
-{{--                                <div class="d-flex left-price-basket h6 pt-3">--}}
-{{--                                    <h6 class="price-font my-auto">۳۲۹,۳۰۰,۳۰۰<span--}}
-{{--                                            class="toman-price my-auto">تومان</span></h6>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-                        <div class="text-center my-4">
-                            <button class="btn btn-warning" disabled>ابتدا آدرس خود را وارد نمایید</button>
                         </div>
                     </div>
                 </div>
