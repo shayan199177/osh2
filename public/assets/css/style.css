@@ -1634,6 +1634,30 @@ nav > div a.nav-item.nav-lin:focus {
     border-radius: 5px;
 }
 
+.slider-page-index button.owl-prev {
+    width: 45px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateY(37%);
+    transform: translateY(37%);
+    background-color: transparent !important;
+    margin-right: -44px;
+    right: 36px;
+    left: auto;
+}
+
+.slider-page-index button.owl-next {
+    width: 45px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateY(37%);
+    transform: translateY(37%);
+    margin-right: -36px;
+    right: auto;
+}
+
 .number-down-up {
     width: 100px;
     height: 35px;
@@ -1666,6 +1690,22 @@ nav > div a.nav-item.nav-lin:focus {
 .slider-page-item button.owl-prev i {
     color: gold;
     font-size: 55px;
+}
+
+.slider-page-index button.owl-next i {
+    color: black;
+    font-size: 55px;
+    padding: 20px 10px 20px 10px;
+    background-color: #ffc107;
+    border-radius: 8px;
+}
+
+.slider-page-index button.owl-prev i {
+    color: black;
+    font-size: 55px;
+    padding: 20px 10px 20px 10px;
+    background-color: #ffc107;
+    border-radius: 8px;
 }
 
 .btn-choose-item.active {
@@ -2309,7 +2349,6 @@ input[type=range]::-ms-thumb {
 }
 .height-slider{
     height: 368px;
-    border: 1px solid #d4d4d4;
     border-radius: 10px;
 }
 .box-index-2{
@@ -2323,8 +2362,10 @@ input[type=range]::-ms-thumb {
     height: 210px;
 }
 .img-index{
-    border: 1px solid transparent;
     border-radius: 17px;
+}
+.img-index-c{
+    height: 260px;
 }
 /*  media query  */
 /*// Extra small devices (portrait phones, less than 576px)*/
@@ -2392,6 +2433,9 @@ input[type=range]::-ms-thumb {
     .scrolled-up {
         transform: unset;
         transition: all 0.4s ease-in-out;
+    }
+    .img-index-c{
+        height: 130px;
     }
 
 }

@@ -172,6 +172,37 @@ jQuery('.slider-page-item').owlCarousel({
         },
     }
 });
+
+jQuery('.slider-page-index').owlCarousel({
+    rtl: true,
+    loop: false,
+    margin: 0,
+    nav: true,
+    autoplay: false,
+    autoplayTimeout: 4500,
+    autoplayHoverPause: true,
+    navText: ["<i class=\"fas fa-angle-right arrow-right\"></i>", "<i class=\"fas fa-angle-left arrow-left\"></i>"],
+    responsive: {
+        0: {
+            items: 1
+        },
+        444: {
+            items: 2
+        },
+        576: {
+            items: 2
+        },
+        768: {
+            items: 3
+        },
+        992: {
+            items: 4
+        },
+        1200: {
+            items: 5
+        },
+    }
+});
 jQuery('.slider-top').owlCarousel({
     rtl: true,
     loop: true,
