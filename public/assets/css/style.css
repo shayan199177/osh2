@@ -1752,6 +1752,34 @@ nav > div a.nav-item.nav-lin:focus {
     right: 0;
 }
 
+.badge-video {
+    position: absolute;
+    background: mediumvioletred;
+    color: white;
+    font-size: 14px;
+    padding: 0.2rem 0.9rem;
+    border-radius: 0.25rem;
+    left: 8px;
+    top: 8px;
+}
+
+.badge-article {
+    background: yellowgreen;
+}
+
+.badge-number{
+    position: absolute;
+    background: #f1f1f1;
+    color: #121213;
+    font-size: 14px;
+    height: 28px;
+    width: 28px;
+    line-height: 29px;
+    border-radius: 50%;
+    left: 10%;
+    top: 7%;
+}
+
 .right-day-items {
     padding: 5px 5px !important;
     font-size: 0.8rem;

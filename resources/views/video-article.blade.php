@@ -27,21 +27,6 @@
         .a-title {
             color: inherit;
         }
-
-        .badge-video {
-            position: absolute;
-            background: mediumvioletred;
-            color: white;
-            font-size: 14px;
-            padding: 0.2rem 0.9rem;
-            border-radius: 0.25rem;
-            left: 8px;
-            top: 8px;
-        }
-
-        .badge-article {
-            background: yellowgreen;
-        }
     </style>
 @endpush
 
