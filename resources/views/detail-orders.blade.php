@@ -178,11 +178,11 @@
             </div>
 
             <div class="col-12 text-right mb-3 border-top-c3 mt-2">
-                <p class="small gray-color mb-2 mt-2 text-justify"><i
-                        class="fas fa-exclamation-circle ml-2"></i>لیست سفارش ها بر اساس زمان خرید از جدیدترین خرید
-                    تا
-                    سوابق خرید گذشته در جدول سفارشات قرار گرفته است.</p>
-                <p class="small gray-color mb-2 text-justify"><i class="fas fa-exclamation-circle ml-2"></i>
+{{--                <p class="small gray-color mb-2 mt-2 text-justify"><i--}}
+{{--                        class="fas fa-exclamation-circle ml-2"></i>لیست سفارش ها بر اساس زمان خرید از جدیدترین خرید--}}
+{{--                    تا--}}
+{{--                    سوابق خرید گذشته در جدول سفارشات قرار گرفته است.</p>--}}
+                <p class="small gray-color mb-2 mt-2 text-justify"><i class="fas fa-exclamation-circle ml-2"></i>
                     برای دریافت فاکتور و مشخصات خرید بر روی فاکتور خرید مورد نظر کلیک نمایید.</p>
             </div>
         </div>
