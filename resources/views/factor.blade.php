@@ -32,129 +32,82 @@
 </head>
 <body>
 <div class="container">
-    <div class="row justify-content-center mt-4">
-        <div class="border rounded p-3" style="width: 20rem;">
-            <div class="text-center">
-                <img src="{!! asset('assets/images/logo-shayanpet-r.png') !!}" class="logo" alt="shayanpet">
+    <div class="row mt-4">
+        <div class="col-12 border rounded px-3">
+            <div class="text-center border-bottom">
+                <img src="{!! asset('assets/images/logo-shayanpet-r.png') !!}" class="logo py-4" alt="shayanpet">
             </div>
-            <div class="row">
-                <div class="col-12 text-center mt-4 border-bottom border-top bg-gray">
-                    <div class="py-2 small">مشخصات سفارش</div>
+            <div class="text-center mt-2 px-3">
+                <div class="text-right d-flex">
+                    <h6 class="small gray-color">خریدار:</h6><h6 class="pr-1 small">شایان سلیم زاده</h6>
                 </div>
-                <div class="col-12 text-center border-bottom">
-                    <div class="py-2 small">شایان سلیم زاده</div>
+                <div class="text-right d-flex">
+                    <h6 class="small gray-color">شماره فاکتور:</h6><h6 class="pr-1 small">SH345690</h6>
                 </div>
-                <div class="col-12 text-center border-bottom d-flex justify-content-around">
-                    <div class="col-6 border-left">
-                        <div class="py-2 small text-right">شماره سفارش</div>
-                    </div>
-                    <div class="col-6">
-                        <div class="py-2 small text-right">SH239998</div>
-                    </div>
-                </div>
-                <div class="col-12 text-center border-bottom d-flex justify-content-around">
-                    <div class="col-6 border-left">
-                        <div class="py-2 small text-right">مبلغ سفارش</div>
-                    </div>
-                    <div class="col-6">
-                        <div class="py-2 small text-right">
-                            <span class="price-font">۷,۰۹۰,۰۰۰</span><span class="toman-price mr-2">تومان</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 text-center border-bottom d-flex justify-content-around">
-                    <div class="col-6 border-left">
-                        <div class="py-2 small text-right">هزینه ارسال</div>
-                    </div>
-                    <div class="col-6">
-                        <div class="py-2 small text-right">
-                            <span class="price-font">15,۰۰۰</span><span class="toman-price mr-2">تومان</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 text-center border-bottom d-flex justify-content-around">
-                    <div class="col-6 border-left">
-                        <div class="py-2 small text-right">روش ارسال</div>
-                    </div>
-                    <div class="col-6">
-                        <div class="py-2 small text-right">پست</div>
-                    </div>
-                </div>
-                <div class="col-12 text-center border-bottom d-flex justify-content-around">
-                    <div class="col-6 border-left">
-                        <div class="py-2 small text-right">آدرس تحویل</div>
-                    </div>
-                    <div class="col-6">
-                        <div class="py-2 small text-justify">خیابان دماوند اتوبان باقری جنب فلان پلاک فلان 34</div>
-                    </div>
-                </div>
-                <div class="col-12 text-center border-bottom d-flex justify-content-around">
-                    <div class="col-6 border-left">
-                        <div class="py-2 small text-right">روش پرداخت</div>
-                    </div>
-                    <div class="col-6">
-                        <div class="py-2 small text-right">آنلاین</div>
-                    </div>
-                </div>
+            </div>
 
-                <div class="col-12 border-bottom d-flex justify-content-around bg-gray">
-                    <div class="col-12">
-                        <div class="py-2 small text-center">جزییات سفارش</div>
-                    </div>
-                </div>
+            <div class="col-12 mt-2">
+                <table class="table table-bordered">
+                    <tbody class="text-center small">
+                    <tr>
+                        <td scope="row">تاریخ خرید</td>
+                        <td>ساعت خرید</td>
+                        <td>کد تخفیف</td>
+                        <td>روش پرداخت</td>
+                        <td>مبلغ پرداختی کل (تومان)</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">1399/11/13</td>
+                        <td>11:50</td>
+                        <td>-</td>
+                        <td>آنلاین</td>
+                        <td>21.900.000</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">آدرس ارسالی</td>
+                        <td colspan="4">خیابان انقلاب، بعد از میدان فردوسی، کوچه موسوی، پلاک 559، طبقه اول، واحد 3</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
 
-                <div class="col-12 text-center border-bottom d-flex">
-                    <div class="col-6 border-left">
-                        <div class="py-2 small text-center">محصول<br>(محصولات)</div>
-                    </div>
-                    <div class="col-2 px-0 border-left">
-                        <div class="py-2 small text-center">تعداد</div>
-                    </div>
-                    <div class="col-4">
-                        <div class="py-2 small text-center">قیمت (تومان)</div>
-                    </div>
-                </div>
-
-                <div class="col-12 text-center border-bottom d-flex">
-                    <div class="col-6 border-left">
-                        <div class="py-2 small text-right">غذای طوطی کاسکو</div>
-                        <h4 class="text-right black-color small">140 کیلوگرم</h4>
-                    </div>
-                    <div class="col-2 px-0 border-left">
-                        <div class="py-2 small text-center">2</div>
-                    </div>
-                    <div class="col-4">
-                        <div class="py-2 small text-center">123.000</div>
-                    </div>
-                </div>
-
-                <div class="col-12 text-center border-bottom d-flex">
-                    <div class="col-6 border-left">
-                        <div class="py-2 small text-right">غذای طوطی کاسکو</div>
-                        <h4 class="text-right black-color small">140 کیلوگرم</h4>
-                    </div>
-                    <div class="col-2 px-0 border-left">
-                        <div class="py-2 small text-center">2</div>
-                    </div>
-                    <div class="col-4">
-                        <div class="py-2 small text-center">123.000</div>
-                    </div>
-                </div>
-
-                <div class="col-12 text-center border-bottom d-flex">
-                    <div class="col-6 border-left">
-                        <div class="py-2 small text-right">غذای سگ رویال</div>
-                        <h4 class="text-right black-color small">140 کیلوگرم</h4>
-                    </div>
-                    <div class="col-2 px-0 border-left">
-                        <div class="py-2 small text-center">32</div>
-                    </div>
-                    <div class="col-4">
-                        <div class="py-2 small text-center">120.000</div>
-                    </div>
-                </div>
-
-
+            <div class="col-12 mt-2">
+                <table class="table table-bordered">
+                    <thead class="text-center small">
+                    <tr>
+                        <th scope="col">ردیف</th>
+                        <th scope="col">نام محصول</th>
+                        <th scope="col">جزئیات</th>
+                        <th scope="col">قیمت (تومان)</th>
+                    </tr>
+                    </thead>
+                    <tbody class="text-center small">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>غذا خشک رویال</td>
+                        <td>15 کیلویی</td>
+                        <td>800.000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>پد بهداشتی گربه</td>
+                        <td>10 عددی</td>
+                        <td>23.000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td >غذای طوطی</td>
+                        <td>کاسکو</td>
+                        <td>200.000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td >ظرف آبخوری گربه</td>
+                        <td>بزرگ</td>
+                        <td>103.900</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
 
