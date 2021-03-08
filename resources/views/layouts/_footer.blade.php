@@ -1,9 +1,9 @@
 <div class="container-fluid test2">
   <div class="container">
     <div class="row di-rtl pt-5 pb-md-3 border-bottom-c2 justify-content-around">
-      <div class="col-12 col-sm-6 col-md-3 order-1">
-        <h4 class="footer-title text-right">راهنمای خرید از شایان پت</h4>
-        <ul class="ul-footer-title">
+      <div class="col-12 col-sm-6 te col-md-3 order-1">
+        <h4 class="footer-title text-center text-md-right">راهنمای خرید از شایان پت</h4>
+        <ul class="ul-footer-title text-center text-md-right">
           <li><a href="../rules-regulations.html">قوانین و مقررات</a></li>
           <li><a href="../info-send.html">ارسال کالا</a></li>
           <li><a href="../info-return.html">برگشت یا تعویض کالا</a></li>
@@ -12,9 +12,9 @@
         </ul>
       </div>
 
-      <div class="col-12 col-sm-6 col-md-3 order-2">
-          <h4 class="footer-title text-right">محصولات شایان پت</h4>
-          <ul class="ul-footer-title">
+      <div class="col-12 col-sm-6 col-md-3 order-2 pt-4 pt-sm-0">
+          <h4 class="footer-title text-center text-md-right">محصولات شایان پت</h4>
+          <ul class="ul-footer-title text-center text-md-right">
               <li><a href="../rules-regulations.html">سگ ها</a></li>
               <li><a href="../info-send.html">گربه ها</a></li>
               <li><a href="../info-return.html">ماهیان</a></li>
@@ -26,7 +26,7 @@
         <div class="col-12 col-md-12 order-1 eshterak">
           <h4 class="footer-title text-center">اشتراک خبرنامه و تخفیف ها</h4>
           <form action="" method="post" class="mt-2 mt-md-3">
-            <div class="form-group row justify-content-center">
+            <div class="form-group row justify-content-center mb-0">
               <div class="col-12 justify-content-center">
                 <label for="colFormLabelSm"></label>
                 <input type="email"
