@@ -1,7 +1,7 @@
 <div class="container-fluid test2">
   <div class="container">
-    <div class="row di-rtl pt-5 pb-3 border-bottom-c2 justify-content-around">
-      <div class="col-6 col-md-3 order-1">
+    <div class="row di-rtl pt-5 pb-md-3 border-bottom-c2 justify-content-around">
+      <div class="col-12 col-sm-6 col-md-3 order-1">
         <h4 class="footer-title text-right">راهنمای خرید از شایان پت</h4>
         <ul class="ul-footer-title">
           <li><a href="../rules-regulations.html">قوانین و مقررات</a></li>
@@ -12,40 +12,15 @@
         </ul>
       </div>
 
-      <div class="col-6 col-md-3 order-2">
-        <h4 class="footer-title text-right">خدمات شایان پت</h4>
-        <ul class="ul-footer-title">
-          <li>
-            <a href="../services/DMV-online.html">رزرو دامپزشکی آنلاین</a>
-          </li>
-          <li>
-            <a href="../services/DMV-Home.html">دامپزشک درب منزل</a>
-          </li>
-          <li>
-            <a href="../services/dog-trainer.html">مربیان سگ</a>
-          </li>
-          <li>
-            <a href="../services/pansion.html">پانسیون پت شما</a>
-          </li>
-          <li>
-            <a href="../services/washing-trimming.html">شست و شو و پیرایش</a>
-          </li>
-          <li>
-            <a href="../services/photography.html">عکاسی تخصصی از حیوانات</a>
-          </li>
-          <li>
-            <a href="../services/sketch-painting.html">
-              نقاشی و طراحی حیوانات
-              <span class="badge badge-primary mr-2">بزودی</span>
-            </a>
-          </li>
-          <li>
-            <a href="../services/adviser.html">
-              مشاوره
-              <span class="badge badge-primary mr-2">بزودی</span>
-            </a>
-          </li>
-        </ul>
+      <div class="col-12 col-sm-6 col-md-3 order-2">
+          <h4 class="footer-title text-right">محصولات شایان پت</h4>
+          <ul class="ul-footer-title">
+              <li><a href="../rules-regulations.html">سگ ها</a></li>
+              <li><a href="../info-send.html">گربه ها</a></li>
+              <li><a href="../info-return.html">ماهیان</a></li>
+              <li><a href="../questions.html">جوندگان و خزندگان</a></li>
+              <li><a href="../contacts.html">پرندگان</a></li>
+          </ul>
       </div>
       <div class="col-12 col-md-6 col-lg-4 order-3 mt-4 mt-md-0 d-flex d-md-block">
         <div class="col-12 col-md-12 order-1 eshterak">
@@ -63,13 +38,13 @@
             </div>
           </form>
         </div>
-        <div class="col-md-12 order-2 d-none d-md-block">
-          <img src="{!! asset('assets/images/logo-shayanpet-w.png') !!}" class="small-logo-footer" alt="shayanpet">
-        </div>
       </div>
     </div>
     <div class="row mt-3 pt-2 pb-2">
-      <div class="col-12 col-md-7 order-1">
+        <div class="col-12 col-lg-5 justify-content-center order-1 order-lg-2 d-flex mt-0 pb-3 pb-lg-0 mt-lg-4">
+            <img src="{!! asset('assets/images/logo-shayanpet-w.png') !!}" style="height:45px;" alt="shayanpet">
+        </div>
+      <div class="col-12 col-lg-7 order-2 order-lg-1">
         <p class="di-rtl footer-contact text-justify pr-md-3 px-1">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
           از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
@@ -80,23 +55,6 @@
           تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای
           موجود طراحی اساسا مورد استفاده قرار گیرد.
         </p>
-      </div>
-      <div class="col-12 col-md-5 order-2 d-flex mt-4 mt-md-0">
-        <div class="col-4">
-          <a href="#">
-            <img src="{!! asset('assets/images/certificate/etehadie.png') !!}" class="logo-enamad" alt="">
-          </a>
-        </div>
-        <div class="col-4">
-          <a href="#">
-            <img src="{!! asset('assets/images/certificate/samandehi.png') !!}" class="logo-enamad" alt="">
-          </a>
-        </div>
-        <div class="col-4">
-          <a href="#">
-            <img src="{!! asset('assets/images/certificate/enamad.png') !!}" class="logo-enamad" alt="">
-          </a>
-        </div>
       </div>
     </div>
     <div class="row di-rtl">

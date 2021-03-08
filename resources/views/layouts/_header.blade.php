@@ -152,43 +152,6 @@
                 </div>
               </div>
             </li>
-            <li class="nav-item px-3 d-none d-md-block my-auto my-auto dropdown menu-area">
-              <a class="nav-link-2 a-link-header dropdown-toggle" href="../all-services.html" id="mega-two"
-                 data-toggle="dropdown"
-                 aria-haspopup="true" aria-expanded="false">
-                خدمات شایان پت
-              </a>
-              <div class="dropdown-menu" aria-labelledby="mega-two">
-                <div class="row">
-                  <div class="col-sm-6 col-lg-3 px-5 my-3">
-                    <h5>درمانی</h5>
-                    <a href="../services/DMV-online.html" class="dropdown-item small">رزرو دامپزشکی</a>
-                    <a href="../services/DMV-Home.html" class="dropdown-item small">دامپزشک در محل</a>
-                  </div>
-                  <div class="col-sm-6 col-lg-3 px-5 my-3">
-                    <h5>تربیتی</h5>
-                    <a href="../services/dog-trainer.html" class="dropdown-item small">تربیت سگ</a>
-                  </div>
-                  <div class="col-sm-6 col-lg-3 px-5 my-3">
-                    <h5>نگهداری</h5>
-                    <a href="../services/washing-trimming.html" class="dropdown-item small">شست و شو و پیرایش</a>
-                    <a href="../services/pansion.html" class="dropdown-item small">پانسیون حیوانات</a>
-                    <a href="../services/adviser.html" class="dropdown-item small">
-                      مشاوره خرید، تغذیه و نگهداری
-                      <span class="badge badge-primary mr-2">بزودی</span>
-                    </a>
-                  </div>
-                  <div class="col-sm-6 col-lg-3 px-5 my-3">
-                    <h5>هنری</h5>
-                    <a href="../services/photography.html" class="dropdown-item small">عکاسی تخصصی حیوانات</a>
-                    <a href="../services/sketch-painting.html" class="dropdown-item small">
-                      نقاشی از پت شما
-                      <span class="badge badge-primary mr-2">بزودی</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
             <li class="nav-item px-3 d-none d-lg-block my-auto dropdown menu-area">
               <a class="nav-link-2 a-link-header dropdown-toggle" href="../articles-videos.html" id="mega-three"
                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

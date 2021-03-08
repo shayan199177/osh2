@@ -595,7 +595,7 @@ topnav .active {
 }
 
 .a-link-header {
-    font-size: 14px;
+    font-size: 13px;
     color: #000000;
     transition: all, 0.3s;
     padding: 20px 0;
@@ -979,7 +979,7 @@ topnav .active {
 .ul-footer-title {
     list-style: none;
     text-align: right;
-    margin-top: 22px;
+    margin-top: 14px;
 }
 
 .ul-footer-title li a {
