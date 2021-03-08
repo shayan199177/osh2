@@ -14,6 +14,7 @@
             height: 73px;
             text-align: right;
             font-size: 0.8rem;
+            color: slategray;
         }
 
         .card-title {
