@@ -23,3 +23,5 @@ Route::view('pay-fail', 'pay-fail');
 Route::view('video-article', 'video-article');
 Route::view('factor', 'factor');
 Route::view('empty-orders', 'empty-orders');
+Route::view('videos', 'videos');
+Route::view('article', 'article');

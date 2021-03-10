@@ -1530,10 +1530,17 @@ nav > div a.nav-item.nav-lin:focus {
     color: #ff5974;
 }
 
+.red-r-color{
+    color: #ef394e;
+}
+
 .w-color {
     color: #ffffff;
 }
 
+.blue-dark-color {
+    color: royalblue;
+}
 .green-color {
     color: #29b42f;
 }

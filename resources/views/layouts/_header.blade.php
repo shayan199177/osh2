@@ -26,24 +26,25 @@
             <i class="fas fa-angle-down i-top mr-2"></i>
           </button>
           <div class="dropdown-menu user-menu-dropdown" aria-labelledby="profileDropdown">
+              <a href="../user/my-orders-service.html" class="dropdown-item small py-2">
+                  <i class="fas fa-shopping-basket pl-2 black-color"></i>
+                  سبد خرید
+              </a>
             <a href="../user/my-interests.html" class="dropdown-item small py-2">
-              <i class="fas fa-heart pl-2"></i>
+              <i class="fas fa-heart pl-2 red-color"></i>
               علاقه‌مندی‌ها
             </a>
             <a href="../user/my-orders.html" class="dropdown-item small py-2">
-              <i class="fas fa-box pl-2"></i>
+              <i class="fas fa-box pl-2 black-color"></i>
               سفارش‌های من
             </a>
-            <a href="../user/my-orders-service.html" class="dropdown-item small py-2">
-              <i class="fas fa-user-clock pl-2"></i>
-              سوابق رزرو خدمات
-            </a>
+
             <a href="../user/profile-setting.html" class="dropdown-item small py-2">
-              <i class="fas fa-user-cog pl-2"></i>
+              <i class="fas fa-user-cog pl-2 black-color"></i>
               تنظیمات حساب کاربری
             </a>
             <a href="#" class="dropdown-item small py-2">
-              <i class="fas fa-sign-out-alt pl-2"></i>
+              <i class="fas fa-sign-out-alt pl-2 red-r-color"></i>
               خروج از حساب کاربری
             </a>
           </div>
@@ -212,24 +213,24 @@
                 <i class="fas fa-angle-down i-top mr-2"></i>
               </button>
               <div class="dropdown-menu user-menu-dropdown" aria-labelledby="profileDropdown1">
+                <a href="../user/my-orders-service.html" class="dropdown-item small py-2">
+                      <i class="fas fa-shopping-basket black-color pl-2"></i>
+                      سبد خرید
+                </a>
                 <a href="../user/my-interests.html" class="dropdown-item small py-2">
-                  <i class="fas fa-heart pl-2"></i>
+                  <i class="fas fa-heart pl-2 red-r-color"></i>
                   علاقه‌مندی‌ها
                 </a>
                 <a href="../user/my-orders.html" class="dropdown-item small py-2">
-                  <i class="fas fa-box pl-2"></i>
+                  <i class="fas fa-box pl-2 black-color"></i>
                   سفارش‌های من
                 </a>
-                <a href="../user/my-orders-service.html" class="dropdown-item small py-2">
-                  <i class="fas fa-user-clock  pl-2"></i>
-                  سوابق رزرو خدمات
-                </a>
                 <a href="../user/profile-setting.html" class="dropdown-item small py-2">
-                  <i class="fas fa-user-cog  pl-2"></i>
+                  <i class="fas fa-user-cog  pl-2 black-color"></i>
                   تنظیمات حساب کاربری
                 </a>
                 <a href="#" class="dropdown-item small py-2">
-                  <i class="fas fa-sign-out-alt pl-2"></i>
+                  <i class="fas fa-sign-out-alt pl-2 red-color"></i>
                   خروج از حساب کاربری
                 </a>
               </div>
