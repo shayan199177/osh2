@@ -36,18 +36,12 @@
 
         /*// Extra small devices (portrait phones, less than 576px)*/
         @media (max-width: 576px) {
-            .video-size-main {
-                width: 100%;
-                height: auto;
-            }
+
         }
 
         /*// Small devices (landscape phones, 576px and up)*/
         @media (min-width: 576px) and (max-width: 768px) {
-            .video-size-main {
-                width: 100%;
-                height: auto;
-            }
+
 
         }
 
@@ -72,7 +66,82 @@
                     <div class="col-12 border-bottom-c3"><h5 class="h6">ویدیوهای آموزشی و خبری</h5>
                     </div>
                 </div>
-                <div class="col-12 mt-4 mt-md-2 d-md-flex">
+                <div class="col-12 mt-2 d-flex">
+                    <div>
+                        <video class="video-size-main rounded" playsinline="playsinline" autoplay="autoplay"
+                               muted="muted"
+                               loop="loop">
+                            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
+                                    type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="p-3">
+                        <a href="#" class="a-title"><h5 class="card-title">محیط زندگی خرگوش shangol و بازیگوش
+                                خاک تو
+                                سر متن طولانی حوصله میخواد ... برو بابا</h5></a>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                            استفاده
+                            از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                            کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                            جامعه و
+                            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                            الخصوص</p>
+                        <a href="#" class="btn btn-sm btn-light mt-3">ادامه مطلب</a>
+                    </div>
+                </div>
+
+                <div class="col-12 mt-2 d-flex">
+                    <div>
+                        <video class="video-size-main rounded" playsinline="playsinline" autoplay="autoplay"
+                               muted="muted"
+                               loop="loop">
+                            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
+                                    type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="p-3">
+                        <a href="#" class="a-title"><h5 class="card-title">محیط زندگی خرگوش shangol و بازیگوش
+                                خاک تو
+                                سر متن طولانی حوصله میخواد ... برو بابا</h5></a>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                            استفاده
+                            از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                            کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                            جامعه و
+                            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                            الخصوص</p>
+                        <a href="#" class="btn btn-sm btn-light mt-3">ادامه مطلب</a>
+                    </div>
+                </div>
+
+                <div class="col-12 mt-2 d-flex">
+                    <div>
+                        <video class="video-size-main rounded" playsinline="playsinline" autoplay="autoplay"
+                               muted="muted"
+                               loop="loop">
+                            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
+                                    type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="p-3">
+                        <a href="#" class="a-title"><h5 class="card-title">محیط زندگی خرگوش shangol و بازیگوش
+                                خاک تو
+                                سر متن طولانی حوصله میخواد ... برو بابا</h5></a>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                            استفاده
+                            از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                            کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                            جامعه و
+                            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                            الخصوص</p>
+                        <a href="#" class="btn btn-sm btn-light mt-3">ادامه مطلب</a>
+                    </div>
+                </div>
+
+                <div class="col-12 mt-2 d-flex">
                     <div>
                         <video class="video-size-main rounded" playsinline="playsinline" autoplay="autoplay"
                                muted="muted"
@@ -94,31 +163,11 @@
                             متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
                             الخصوص</p>
                         <p href="#" class="float-right gray-color small mt-3">تاریخ انتشار:1399/07/09</p>
+                        <a href="#" class="btn-vi-ar mt-3">مشاهده ویدیو</a>
                     </div>
                 </div>
 
-                <div class="col-12 mt-4 mt-md-2 d-md-flex">
-                    <div>
-                        <video class="video-size-main rounded" playsinline="playsinline" autoplay="autoplay"
-                               muted="muted"
-                               loop="loop">
-                            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
-                                    type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="p-3">
-                        <a href="#" class="a-title"><h5 class="card-title">محیط زندگی خرگوش shangol و بازیگوش
-                                خاک تومحیط زندگی خرگوش shangol و بازیگوش
-                                خاک تو
-                                سر متن طولانی حوصله میخواد ... برو بابا</h5></a>
-                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-                            استفاده
-                            الخصوص</p>
-                        <p href="#" class="float-right gray-color small mt-3">تاریخ انتشار:1400/07/09</p>
-                    </div>
-                </div>
-
-                <div class="col-12 mt-4 mt-md-2 d-md-flex">
+                <div class="col-12 mt-2 d-flex">
                     <div>
                         <video class="video-size-main rounded" playsinline="playsinline" autoplay="autoplay"
                                muted="muted"
@@ -140,56 +189,7 @@
                             متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
                             الخصوص</p>
                         <p href="#" class="float-right gray-color small mt-3">تاریخ انتشار:1399/07/09</p>
-                    </div>
-                </div>
-
-                <div class="col-12 mt-4 mt-md-2 d-md-flex">
-                    <div>
-                        <video class="video-size-main rounded" playsinline="playsinline" autoplay="autoplay"
-                               muted="muted"
-                               loop="loop">
-                            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
-                                    type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="p-3">
-                        <a href="#" class="a-title"><h5 class="card-title">محیط زندگی خرگوش shangol و بازیگوش
-                                خاک تو
-                                سر متن طولانی حوصله میخواد ... برو بابا</h5></a>
-                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-                            استفاده
-                            از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-                            است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
-                            کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
-                            جامعه و
-                            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
-                            الخصوص</p>
-                        <p href="#" class="float-right gray-color small mt-3">تاریخ انتشار:1399/07/09</p>
-                    </div>
-                </div>
-
-                <div class="col-12 mt-4 mt-md-2 d-md-flex">
-                    <div>
-                        <video class="video-size-main rounded" playsinline="playsinline" autoplay="autoplay"
-                               muted="muted"
-                               loop="loop">
-                            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
-                                    type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="p-3">
-                        <a href="#" class="a-title"><h5 class="card-title">محیط زندگی خرگوش shangol و بازیگوش
-                                خاک تو
-                                سر متن طولانی حوصله میخواد ... برو بابا</h5></a>
-                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-                            استفاده
-                            از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-                            است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
-                            کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
-                            جامعه و
-                            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
-                            الخصوص</p>
-                        <p href="#" class="float-right gray-color small mt-3">تاریخ انتشار:1399/07/09</p>
+                        <a href="#" class="btn-vi-ar mt-3 pt-2">مشاهده ویدیو</a>
                     </div>
                 </div>
 

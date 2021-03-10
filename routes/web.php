@@ -25,3 +25,4 @@ Route::view('factor', 'factor');
 Route::view('empty-orders', 'empty-orders');
 Route::view('videos', 'videos');
 Route::view('article', 'article');
+Route::view('video', 'video');
