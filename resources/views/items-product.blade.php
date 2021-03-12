@@ -90,9 +90,6 @@
 
             <div class="col-12 col-md-3 pt-1">
                 <div class="bg-white border rounded">
-                    <p class="text-justify small gray-color p-3">برای اعمال فیلتر محصولات بر روی دکمه اعمال
-                        تغییرات کلیک
-                        نمایید.</p>
                     <div class="py-2 px-3 bg-white black-color active text-right rounded-top">دسته بندی نتایج</div>
                     <div class="text-right px-4">
                         <a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a>

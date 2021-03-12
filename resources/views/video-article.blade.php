@@ -35,12 +35,12 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-right mt-4">
-                    <div class="row pb-3">
-                        <div class="col-12 col-md-4 col-lg-2 py-2"><h5 class="h6">ویدیوها و مقاله ها</h5>
+                <div class="col-12 mt-4">
+                    <div class="row justify-content-between pb-3">
+                        <div class="col-12 text-right col-md-4 col-lg-2 py-2"><h5 class="h6">ویدیوها و مقاله ها</h5>
                         </div>
-                        <div class="col-12 col-md-7 col-lg-6 col-xl-4 justify-content-end">
-                            <form class="form-inline justify-content-end">
+                        <div class="col-12 col-md-7 col-lg-6 col-xl-4">
+                            <form class="form-inline">
                                 <input class="form-control-vr input-search" type="search"
                                        placeholder="ویدیو یا مقاله مورد نظرتون را جستجو کنید..."
                                        aria-label="Search">
