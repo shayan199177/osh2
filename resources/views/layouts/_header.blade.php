@@ -168,9 +168,6 @@
                     <a href="#" class="dropdown-item small">راهنمای خرید سگ</a>
                     <a href="#" class="dropdown-item small">راهنمای خرید گربه</a>
                     <a href="#" class="dropdown-item small">راهنمای خرید گربه</a>
-                    <a href="../articles.html" class="dropdown-item small mr-3 mt-3 item-more">
-                      مقالات بیش تر ...
-                    </a>
                   </div>
                   <div class="col-sm-6 col-lg-3 px-5 my-3">
                     <h5>ویدیوها</h5>
@@ -180,9 +177,6 @@
                     <a href="#" class="dropdown-item small">خرگوش لوپ</a>
                     <a href="#" class="dropdown-item small">ورزش طوطی</a>
                     <a href="#" class="dropdown-item small">ورزش طوطی</a>
-                    <a href="../videos.html" class="dropdown-item small mr-3 mt-3 item-more">
-                      ویدیوهای بیش تر ...
-                    </a>
                   </div>
                   <div class="col-sm-6 col-lg-3 px-5 my-3 text-right">
                     <h5>برچسب ها</h5>
