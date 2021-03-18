@@ -185,7 +185,7 @@ select {
     z-index: 999; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #f1c40f; /* Set a background color */
+    background-color: #f1c40fb3; /* Set a background color */
     color: #ffffff; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px 24px; /* Some padding */
@@ -1599,7 +1599,7 @@ nav > div a.nav-item.nav-lin:focus {
 
 .height-fix-280px {
     min-height: auto;
-    max-height: 270px;
+    max-height: 425px;
     width: 100%;
 }
 
@@ -1640,7 +1640,7 @@ nav > div a.nav-item.nav-lin:focus {
 
 .form-check-items {
     position: relative;
-    display: block;
+    display: flex;
 }
 
 .slider-page-item button.owl-prev {
@@ -1870,7 +1870,7 @@ nav > div a.nav-item.nav-lin:focus {
 }
 
 .title-item-more:hover {
-    background-color: #151518;
+    background-color: royalblue;
     color: #ffffff;
 }
 .line-h25{
@@ -2459,39 +2459,13 @@ input[type=range]::-ms-thumb {
 .img-index-c{
     height: 260px;
 }
+
 /*  media query  */
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 576px) {
-    .humberger-menu {
-        height: 30px;
-        width: 30px;
-        position: fixed;
-        right: 29px;
-        top: 11px;
-        cursor: pointer;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        z-index: 6060;
-    }
-
-    .change .line-1 {
-        position: relative;
-        transform: rotateZ(-45deg) translate(-8px, 6px);
-    }
-
-    .change .line-2 {
-        position: relative;
-        opacity: 0;
-    }
-
-    .change .line-3 {
-        position: relative;
-        transform: rotateZ(45deg) translate(-8px, -6px);
-    }
 
     .h-nav-top {
-        top: 88px;
+        top:87px;
     }
 
     .user-menu-dropdown {
@@ -2499,22 +2473,18 @@ input[type=range]::-ms-thumb {
     }
 
     .sticky-top {
-        position: unset;
+        position: sticky;
         top: 0;
-        z-index: unset;
+        z-index: 1030;
     }
 
     .h-nav-top {
         height: 45px;
-        top: 67px;
-        z-index: unset;
         width: 100%;
     }
 
     .smart-scroll {
-        position: unset;
-        top: 51px;
-        z-index: 1010;
+        z-index: 1030;
     }
 
     .scrolled-down {
@@ -2535,7 +2505,7 @@ input[type=range]::-ms-thumb {
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 768px) {
     .h-nav-top {
-        top: 88px;
+        top: 87px;
     }
 
     .menu-service {
@@ -2561,21 +2531,18 @@ input[type=range]::-ms-thumb {
     }
 
     .sticky-top {
-        position: unset;
+        position: sticky;
         top: 0;
-        z-index: unset;
+        z-index: 1030;
     }
 
     .h-nav-top {
         height: 50px;
-        top: 67px;
         z-index: unset;
         width: 100%;
     }
 
     .smart-scroll {
-        position: unset;
-        top: 51pxpx;
         z-index: 1010;
     }
 
@@ -2588,6 +2555,13 @@ input[type=range]::-ms-thumb {
         transform: unset;
         transition: all 0.4s ease-in-out;
     }
+    .margin-top-small-d{
+        top: 0;
+        position: relative;
+        height: 93px;
+        width: 100%;
+        background:transparent;
+    }
 }
 
 
@@ -2595,7 +2569,7 @@ input[type=range]::-ms-thumb {
 @media (min-width: 768px) and (max-width: 992px) {
 
     .h-nav-top {
-        top: 50px;
+        top: 51px;
     }
 
     .dropdown-menu {
@@ -2604,6 +2578,13 @@ input[type=range]::-ms-thumb {
 
     .user-menu-dropdown {
         top: 38px !important;
+    }
+    .margin-top-small-d{
+        top: 0;
+        position: relative;
+        height: 48px;
+        width: 100%;
+        background:transparent;
     }
 }
 

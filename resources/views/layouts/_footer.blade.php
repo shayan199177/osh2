@@ -1,4 +1,6 @@
+
 <div class="container-fluid test2">
+    <div class="w-100" style="height: 8px; background-color: #f1c40f;"></div>
   <div class="container">
     <div class="row di-rtl pt-5 pb-md-3 border-bottom-c2 justify-content-around">
       <div class="col-12 col-sm-6 te col-md-3 order-1">

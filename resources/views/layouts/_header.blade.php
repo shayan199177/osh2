@@ -62,30 +62,30 @@
 <div class="bg-white w-100 h-nav-top d-flex align-items-center border-bottom smart-scroll">
   <div class="container">
     <div class="row">
-      <div class="d-block d-md-none menu-wrap">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger">
-          <div></div>
-        </div>
-        <div class="menu">
-          <div>
-            <div>
-              <ul>
-                <li><a href="../index.html">صفحه اصلی</a></li>
-                <li><a href="../all-products.html">دسته بندی محصولات</a></li>
-                <li><a href="../all-services.html">خدمات شایان پت</a></li>
-                <li><a href="../articles.html">مقاله ها</a></li>
-                <li><a href="../videos.html">ویدیو ها</a></li>
-                <li><a href="../contacts.html">تماس با ما</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+{{--      <div class="d-block d-md-none menu-wrap">--}}
+{{--        <input type="checkbox" class="toggler">--}}
+{{--        <div class="hamburger">--}}
+{{--          <div></div>--}}
+{{--        </div>--}}
+{{--        <div class="menu">--}}
+{{--          <div>--}}
+{{--            <div>--}}
+{{--              <ul>--}}
+{{--                <li><a href="../index.html">صفحه اصلی</a></li>--}}
+{{--                <li><a href="../all-products.html">دسته بندی محصولات</a></li>--}}
+{{--                <li><a href="../all-services.html">خدمات شایان پت</a></li>--}}
+{{--                <li><a href="../articles.html">مقاله ها</a></li>--}}
+{{--                <li><a href="../videos.html">ویدیو ها</a></li>--}}
+{{--                <li><a href="../contacts.html">تماس با ما</a></li>--}}
+{{--              </ul>--}}
+{{--            </div>--}}
+{{--          </div>--}}
+{{--        </div>--}}
+{{--      </div>--}}
       <div class="col-12 col-md-12">
         <nav class="navbar-top navbar-expand-lg navbar-light bg-white d-flex">
           <ul class="navbar-nav">
-            <li class="nav-item dropdown px-3 d-none d-md-block my-auto dropdown menu-area">
+            <li class="nav-item dropdown px-3 d-none d-lg-block my-auto dropdown menu-area">
               <a class="nav-link-2 a-link-header dropdown-toggle" href="../all-products.html" id="mega-one"
                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-bars"></i>
