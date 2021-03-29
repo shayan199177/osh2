@@ -203,6 +203,69 @@ jQuery('.slider-page-index').owlCarousel({
         },
     }
 });
+
+jQuery('.slider-page-index-two').owlCarousel({
+    rtl: true,
+    loop: false,
+    margin: 0,
+    nav: true,
+    autoplay: false,
+    autoplayTimeout: 4500,
+    autoplayHoverPause: true,
+    navText: ["<i class=\"fas fa-angle-right arrow-right\"></i>", "<i class=\"fas fa-angle-left arrow-left\"></i>"],
+    responsive: {
+        0: {
+            items: 1
+        },
+        444: {
+            items: 2
+        },
+        576: {
+            items: 2
+        },
+        768: {
+            items: 3
+        },
+        992: {
+            items: 4
+        },
+        1200: {
+            items: 5
+        },
+    }
+});
+
+jQuery('.slider-page-index-three').owlCarousel({
+    rtl: true,
+    loop: false,
+    margin: 0,
+    nav: false,
+    autoplay: false,
+    autoplayTimeout: 4500,
+    autoplayHoverPause: true,
+    navText: ["<i class=\"fas fa-angle-right arrow-right\"></i>", "<i class=\"fas fa-angle-left arrow-left\"></i>"],
+    responsive: {
+        0: {
+            items: 1
+        },
+        444: {
+            items: 2
+        },
+        576: {
+            items: 2
+        },
+        768: {
+            items: 3
+        },
+        992: {
+            items: 4
+        },
+        1200: {
+            items: 5
+        },
+    }
+});
+
 jQuery('.slider-top').owlCarousel({
     rtl: true,
     loop: true,
@@ -310,6 +373,37 @@ jQuery('.items-dmv').owlCarousel({
         },
         1200: {
             items: 3
+        },
+    }
+});
+
+jQuery('.logo-slider').owlCarousel({
+    rtl: true,
+    loop: true,
+    margin: 0,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 4500,
+    autoplayHoverPause: true,
+    navText: ["<i class=\"fas fa-angle-right arrow-right\"></i>", "<i class=\"fas fa-angle-left arrow-left\"></i>"],
+    responsive: {
+        0: {
+            items: 2
+        },
+        444: {
+            items: 3
+        },
+        576: {
+            items: 3
+        },
+        768: {
+            items: 4
+        },
+        992: {
+            items: 5
+        },
+        1200: {
+            items: 6
         },
     }
 });
