@@ -787,13 +787,23 @@ topnav .active {
     border-radius: 15px;
     border: 2px solid #f1c40f;
 }
+.row-article{
+    background-color: #FFFFFF;
+    padding: 15px 15px;
+    border-radius: 15px;
+    border: 2px solid #f1c40f;
+}
+.article-mx{
+    padding: 20px 80px;
+}
+.text-article{
+    text-align: justify;
+    color: #151515;
+    line-height: 32px;
+    font-size: 1rem;
+}
 .br-12{
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    -moz-border-radius-topleft: 12px;
-    -moz-border-radius-topright: 12px;
-    -webkit-border-top-left-radius: 12px;
-    -webkit-border-top-right-radius: 12px;
+    border-radius: 12px;
 }
 .caption_article{
     top: 0;
@@ -2625,7 +2635,9 @@ input[type=range]::-ms-thumb {
     .img-index-c{
         height: 130px;
     }
-
+    .article-mx{
+        padding: 20px 0px;
+    }
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -2691,6 +2703,9 @@ input[type=range]::-ms-thumb {
     .img-index-c{
         height: 170px;
     }
+    .article-mx{
+        padding: 20px 20px;
+    }
 }
 
 
@@ -2714,6 +2729,9 @@ input[type=range]::-ms-thumb {
         height: 48px;
         width: 100%;
         background:transparent;
+    }
+    .article-mx{
+        padding: 20px 30px;
     }
 }
 
