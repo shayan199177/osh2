@@ -8,13 +8,12 @@
 @section('content')
     <div class="container-fluid">
         <div class="container">
-            <div class="row mb-5">
-                <div class="mx-auto">
-                    <div class="col-12 d-flex text-right my-4 px-2">
-                        <div class="float-right px-4">
+            <div class="row mt-4 mb-5 border-article">
+                    <div class="col-12 d-flex br-12 p-0 bg-main">
+                        <div class="float-right p-3">
                             <img class="rounded" style="height: 100px;" src="/temp/product/article/rabbit.jpg" alt="Card image cap">
                         </div>
-                        <div class="align-self-center"><h5 class="h6">محیط زندگی خرگوش shangol و بازیگوش خاک تو
+                        <div class="align-self-baseline pt-3"><h5 class="h6">محیط زندگی خرگوش shangol و بازیگوش خاک تو
                                 سر متن طولانی حوصله میخواد ... برو بابا</h5>
                         </div>
                     </div>
@@ -34,11 +33,7 @@
                     <div class="col-12 font-88 line-h25 text-justify">
                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
                     </div>
-                </div>
-
-
             </div>
-
         </div>
     </div>
 

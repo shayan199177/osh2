@@ -155,7 +155,7 @@ select {
  }
 
 .bg-currentColor{
-    background: #161614;
+    background: #2574a9;
 }
 
 .bg-black{
@@ -748,7 +748,6 @@ topnav .active {
     background: transparent;
 }
 
-
 .box-5 {
     height: auto;
     width: 100%;
@@ -784,6 +783,18 @@ topnav .active {
     width: 100%;
     background: #f1aa16;
 }
+.border-article{
+    border-radius: 15px;
+    border: 2px solid #f1c40f;
+}
+.br-12{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    -moz-border-radius-topleft: 12px;
+    -moz-border-radius-topright: 12px;
+    -webkit-border-top-left-radius: 12px;
+    -webkit-border-top-right-radius: 12px;
+}
 .caption_article{
     top: 0;
     background: #f1c40f;
@@ -800,10 +811,14 @@ topnav .active {
 }
 .title-index-category{
     background: #f1c40f;
-    padding: 13px;
+    padding: 8px 15px;
     border-radius: 10px;
-    font-size: 1.1rem;
-    color: #0b0b0b;
+    font-size: 1rem;
+    color: #212529;
+    position: relative;
+    top: 15px;
+    right: 16px;
+    z-index: 500;
     width: fit-content;
     width: -moz-fit-content;
 }

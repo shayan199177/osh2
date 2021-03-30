@@ -210,7 +210,7 @@
 
 @section('content')
     <div class="container-fluid bg-white">
-        <div class="container pt-2 pt-sm-3">
+        <div class="container pt-2 pb-4 pt-sm-3">
             <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
                 <ol class="carousel-indicators">
                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -310,64 +310,8 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-white">
-        <div class="container">
-            <div class="row justify-content-around p-1 py-md-3">
-                <div class="col-12 col-sm-6 col-lg-4 py-1 pt-sm-3 p-lg-3">
-                    <div class="box-3">
-                        <a href="#" class="border-10">
-                            <img srcset="assets/images/sliders/box-top-cat.jpg" alt="responsive image"
-                                 class="d-block img-fluid border-10">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4 py-1 pt-sm-3 p-lg-3">
-                    <div class="box-3">
-                        <a href="#" class="border-10">
-                            <img srcset="assets/images/sliders/box-top-off.jpg" alt="responsive image"
-                                 class="d-block img-fluid border-10">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4 py-1 pt-sm-3 p-lg-3">
-                    <div class="box-3">
-                        <a href="#" class="border-10 text-center">
-                            <img srcset="assets/images/sliders/box-top-sefaresh-1.jpg" alt="responsive image"
-                                 class="d-block img-fluid border-10 mx-auto">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="container-fluid bg-white my-5">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-6 py-2 py-md-1 col-lg-4 col-xl-4 text-center">
-                    <a href="#"><img src="temp/index/dog-index.png" class="img-index img-index-c" alt="dog"></a>
-                    <h5>سگ ها</h5>
-                </div>
-                <div class="col-6 py-2 py-md-1 col-lg-4 col-xl-4 text-center">
-                    <a href="#"><img src="temp/index/cat-index.png" class="img-index img-index-c" alt="cat"></a>
-                    <h5>گربه ها</h5>
-                </div>
-                <div class="col-6 py-2 py-md-1 col-lg-4 col-xl-4 text-center">
-                    <a href="#"><img src="temp/index/fish-index.png" class="img-index img-index-c" alt="dog"></a>
-                    <h5>آکواریوم</h5>
-                </div>
-                <div class="col-6 py-2 py-md-1 col-lg-4 col-xl-4 mt-xl-5 text-center">
-                    <a href="#"><img src="temp/index/bird-index.png" class="img-index img-index-c" alt="cat"></a>
-                    <h5>پرندگان</h5>
-                </div>
-                <div class="col-6 py-2 py-md-1 col-lg-4 col-xl-4 mt-xl-5 text-center">
-                    <a href="#"><img src="temp/index/rabbit.png" class="img-index img-index-c" alt="dog"></a>
-                    <h5>جوندگان و خزندگان</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    {{--    slider-OFF--}}
 
     <div class="w-100" style="height: 8px; background-color: #f1c40f;"></div>
     <div class="container-fluid bg-currentColor">
@@ -574,8 +518,41 @@
 
     <div class="container-fluid bg-white">
         <div class="container">
-            <div class="row py-5">
-                <div class="col-3 p-3">
+            <div class="row justify-content-around p-1 py-md-3 pt-md-4">
+                <div class="col-12 col-sm-6 col-lg-4 py-1 pt-sm-3 p-lg-2">
+                    <div class="box-3">
+                        <a href="#" class="border-10">
+                            <img srcset="assets/images/sliders/box-top-cat.jpg" alt="responsive image"
+                                 class="d-block img-fluid border-10">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 py-1 pt-sm-3 p-lg-2">
+                    <div class="box-3">
+                        <a href="#" class="border-10">
+                            <img srcset="assets/images/sliders/box-top-off.jpg" alt="responsive image"
+                                 class="d-block img-fluid border-10">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 py-1 pt-sm-3 p-lg-2">
+                    <div class="box-3">
+                        <a href="#" class="border-10 text-center">
+                            <img srcset="assets/images/sliders/box-top-sefaresh-1.jpg" alt="responsive image"
+                                 class="d-block img-fluid border-10 mx-auto">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid bg-white">
+        <div class="container">
+            <div class="row py-1">
+                <div class="col-3 p-2">
                     <div class="box-4">
                         <a href="#">
                             <img srcset="assets/images/sliders/box-tip.jpg" alt="responsive image"
@@ -583,26 +560,26 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-3 p-3">
+                <div class="col-3 p-2">
                     <div class="box-4">
                         <a href="#">
-                            <img srcset="assets/images/sliders/box-tip.jpg" alt="responsive image"
+                            <img srcset="assets/images/sliders/box-tip-2.jpg" alt="responsive image"
                                  class="d-block img-fluid border-10">
                         </a>
                     </div>
                 </div>
-                <div class="col-3 p-3">
+                <div class="col-3 p-2">
                     <div class="box-4">
                         <a href="#">
-                            <img srcset="assets/images/sliders/box-tip.jpg" alt="responsive image"
+                            <img srcset="assets/images/sliders/box-tip-3.jpg" alt="responsive image"
                                  class="d-block img-fluid border-10">
                         </a>
                     </div>
                 </div>
-                <div class="col-3 p-3">
+                <div class="col-3 p-2">
                     <div class="box-4">
                         <a href="#">
-                            <img srcset="assets/images/sliders/box-tip.jpg" alt="responsive image"
+                            <img srcset="assets/images/sliders/box-tip-4.jpg" alt="responsive image"
                                  class="d-block img-fluid border-10">
                         </a>
                     </div>
@@ -633,9 +610,9 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="owl-carousel slider-page-index-three">
+                    <div class="owl-carousel slider-page-index-three bg-main border-article">
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/fish/7.jpg" alt="shayanPet"
@@ -649,7 +626,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                             <span class="toman-price-off align-middle">۴۵۰,۰۰۰</span><span
                                                 class="badge badge-danger badge-pill mr-2">۲۳٪</span>
@@ -664,7 +641,7 @@
                         </div>
 
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/fish/8.jpg" alt="shayanPet"
@@ -678,7 +655,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                             <span class="toman-price-off align-middle">۵۵۰,۰۰۰</span><span
                                                 class="badge badge-danger badge-pill mr-2">۲۳٪</span>
@@ -693,7 +670,7 @@
                         </div>
 
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/dog/2.jpg" alt="shayanPet"
@@ -707,7 +684,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                             <span class="toman-price-off align-middle">۷,۸۰۰,۰۰۰</span><span
                                                 class="badge badge-danger badge-pill mr-2">۳۰٪</span>
@@ -722,7 +699,7 @@
                         </div>
 
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/dog/3.jpg" alt="shayanPet"
@@ -736,7 +713,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                         </div>
                                         <div>
@@ -749,7 +726,7 @@
                         </div>
 
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/dog/4.jpg" alt="shayanPet"
@@ -763,7 +740,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                             <span class="toman-price-off align-middle">۷,۸۰۰,۰۰۰</span><span
                                                 class="badge badge-danger badge-pill mr-2">۳۰٪</span>
@@ -778,7 +755,7 @@
                         </div>
 
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/cat/1.jpg" alt="shayanPet"
@@ -792,7 +769,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                             <span class="toman-price-off align-middle">۷,۸۰۰,۰۰۰</span><span
                                                 class="badge badge-danger badge-pill mr-2">۳۰٪</span>
@@ -807,7 +784,7 @@
                         </div>
 
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/cat/2.jpg" alt="shayanPet"
@@ -821,7 +798,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                             <span class="toman-price-off align-middle">۷,۸۰۰,۰۰۰</span><span
                                                 class="badge badge-danger badge-pill mr-2">۳۰٪</span>
@@ -843,7 +820,7 @@
 
     <div class="container-fluid bg-white">
         <div class="container">
-            <div class="row pb-5">
+            <div class="row pb-2">
                 <div class="col-12 pt-4">
                     <div class="row justify-content-around">
                         <div class="col-9 text-right">
@@ -863,9 +840,9 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="owl-carousel slider-page-index-three">
+                    <div class="owl-carousel slider-page-index-three bg-main border-article">
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/fish/7.jpg" alt="shayanPet"
@@ -879,7 +856,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                             <span class="toman-price-off align-middle">۴۵۰,۰۰۰</span><span
                                                 class="badge badge-danger badge-pill mr-2">۲۳٪</span>
@@ -894,7 +871,7 @@
                         </div>
 
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/fish/8.jpg" alt="shayanPet"
@@ -908,7 +885,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                             <span class="toman-price-off align-middle">۵۵۰,۰۰۰</span><span
                                                 class="badge badge-danger badge-pill mr-2">۲۳٪</span>
@@ -923,7 +900,7 @@
                         </div>
 
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/dog/2.jpg" alt="shayanPet"
@@ -937,7 +914,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                             <span class="toman-price-off align-middle">۷,۸۰۰,۰۰۰</span><span
                                                 class="badge badge-danger badge-pill mr-2">۳۰٪</span>
@@ -952,7 +929,7 @@
                         </div>
 
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/dog/3.jpg" alt="shayanPet"
@@ -966,7 +943,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                         </div>
                                         <div>
@@ -979,7 +956,7 @@
                         </div>
 
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/dog/4.jpg" alt="shayanPet"
@@ -993,7 +970,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                             <span class="toman-price-off align-middle">۷,۸۰۰,۰۰۰</span><span
                                                 class="badge badge-danger badge-pill mr-2">۳۰٪</span>
@@ -1008,7 +985,7 @@
                         </div>
 
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/cat/1.jpg" alt="shayanPet"
@@ -1022,7 +999,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                             <span class="toman-price-off align-middle">۷,۸۰۰,۰۰۰</span><span
                                                 class="badge badge-danger badge-pill mr-2">۳۰٪</span>
@@ -1037,7 +1014,7 @@
                         </div>
 
                         <div class="px-1 py-3">
-                            <div class="category-h240 zoom-items-pageItem">
+                            <div class="category-h240 border-none zoom-items-pageItem">
                                 <div class="mb-2">
                                     <a href="#">
                                         <img src="/temp/product/cat/2.jpg" alt="shayanPet"
@@ -1051,7 +1028,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-left px-3 mb-3 mt-2">
+                                    <div class="text-left px-3 pb-4 mt-2">
                                         <div class="mb-2" style="height: 24px">
                                             <span class="toman-price-off align-middle">۷,۸۰۰,۰۰۰</span><span
                                                 class="badge badge-danger badge-pill mr-2">۳۰٪</span>
@@ -1071,36 +1048,74 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-main">
-        <div class="container">
-            <div class="row py-4">
-                <div class="col-4 p-3">
-                    <div class="box-1">
-                        <a href="#">
-                            <img srcset="/temp/product/article/rabbit.jpg" alt="responsive image"
-                                 class="d-block img-fluid border-top-10">
-                            <div class="caption_article">
-                                <h5 class="text-right small">
-                                    خرگوش مشکی مشکل داره خوبش کن
-                                </h5>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-4 p-3">
-                    <div class="box-1">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div class="col-4 p-3">
-                    <div class="box-1">
-                        <img src="" alt="">
-                    </div>
-                </div>
 
+    <div class="container-fluid bg-white">
+        <div class="container">
+            <div class="row justify-content-center py-4">
+                <div class="col-6 py-2 py-md-1 col-lg-4 col-xl-4 text-center">
+                    <a href="#"><img src="temp/index/dog-index.png" class="img-index img-index-c" alt="dog"></a>
+                    <h5>سگ ها</h5>
+                </div>
+                <div class="col-6 py-2 py-md-1 col-lg-4 col-xl-4 text-center">
+                    <a href="#"><img src="temp/index/cat-index.png" class="img-index img-index-c" alt="cat"></a>
+                    <h5>گربه ها</h5>
+                </div>
+                <div class="col-6 py-2 py-md-1 col-lg-4 col-xl-4 text-center">
+                    <a href="#"><img src="temp/index/fish-index.png" class="img-index img-index-c" alt="dog"></a>
+                    <h5>آکواریوم</h5>
+                </div>
+                <div class="col-6 py-2 py-md-1 col-lg-4 col-xl-4 mt-xl-4 text-center">
+                    <a href="#"><img src="temp/index/bird-index.png" class="img-index img-index-c" alt="cat"></a>
+                    <h5>پرندگان</h5>
+                </div>
+                <div class="col-6 py-2 py-md-1 col-lg-4 col-xl-4 mt-xl-4 text-center">
+                    <a href="#"><img src="temp/index/rabbit.png" class="img-index img-index-c" alt="dog"></a>
+                    <h5>جوندگان و خزندگان</h5>
+                </div>
             </div>
         </div>
     </div>
+
+    <div class="w-100" style="height: 8px; background-color: #f1c40f;"></div>
+    <div class="container-fluid bg-currentColor">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-3 p-3">
+                    <div class="box-4">
+                        <a href="#">
+                            <img srcset="/temp/product/article/rabbit.jpg" alt="responsive image"
+                                 class="d-block img-fluid border-10">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3 p-3">
+                    <div class="box-4">
+                        <a href="#">
+                            <img srcset="/temp/product/article/rabbit.jpg" alt="responsive image"
+                                 class="d-block img-fluid border-10">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3 p-3">
+                    <div class="box-4">
+                        <a href="#">
+                            <img srcset="/temp/product/article/rabbit.jpg" alt="responsive image"
+                                 class="d-block img-fluid border-10">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3 p-3">
+                    <div class="box-4">
+                        <a href="#">
+                            <img srcset="/temp/product/article/rabbit.jpg" alt="responsive image"
+                                 class="d-block img-fluid border-10">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-100" style="height: 8px; background-color: #f1c40f;"></div>
 
     <div class="container-fluid bg-white">
         <div class="container">
@@ -1165,6 +1180,7 @@
             </div>
         </div>
     </div>
+
 
     <div class="container-fluid bg-white">
         <div class="container">
