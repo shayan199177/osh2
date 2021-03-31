@@ -770,9 +770,11 @@ topnav .active {
 }
 
 .box-7 {
-    height: 463px;
+    height: auto;
     width: 100%;
-    background: #f1c40f url("../img/img/pattern.png");
+    border: none;
+    border-radius: 20px;
+    background: transparent;
 }
 
 .box-8 {
@@ -824,7 +826,7 @@ topnav .active {
 }
 .title-index-category{
     background: #f1c40f;
-    padding: 8px 15px;
+    padding: 7px 9px;
     border-radius: 10px;
     font-size: 1rem;
     color: #212529;

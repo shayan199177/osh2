@@ -1,221 +1,75 @@
 @extends('layouts.shop')
 @push('styles')
     <style>
-        .card {
-            background-color: #fff !important;
-        }
 
-        .card-body {
-            padding: 1.25rem !important;
-        }
-
-        .card-text {
-            overflow-y: hidden;
-            height: 73px;
-            text-align: right;
-            font-size: 0.8rem;
-            color: slategray;
-        }
-
-        .card-title {
-            overflow-y: hidden;
-            height: 46px;
-            text-align: right;
-            font-size: 1rem;
-            line-height: 25px;
-        }
-
-        .a-title {
-            color: inherit;
-        }
-
-        .video-size-main {
-            width: auto;
-            height: 210px;
-        }
-
-        /*// Extra small devices (portrait phones, less than 576px)*/
-        @media (max-width: 576px) {
-
-        }
-
-        /*// Small devices (landscape phones, 576px and up)*/
-        @media (min-width: 576px) and (max-width: 768px) {
-
-
-        }
-
-        /*// Medium devices (tablets, 768px and up)*/
-        @media (min-width: 768px) and (max-width: 992px) {
-
-        }
-
-        /*/ Large devices (desktops, 992px and up) */
-        @media (min-width: 992px) and (max-width: 1199.98px) {
-
-
-        }
     </style>
 @endpush
 
 @section('content')
     <div class="container-fluid">
         <div class="container">
-            <div class="row">
-                <div class="col-12 text-right mt-3 mb-2">
-                    <div class="col-12 border-bottom-c3"><h5 class="h6">ویدیوهای آموزشی و خبری</h5>
+            <div class="row mt-4 mb-5 mx-1 row-article">
+                <div class="col-12 br-12 p-0 bg-main">
+                    <div class="row px-3">
+                        <div class="col-12 col-md-4 col-lg-3 col-xl-2 text-center text-md-right p-2">
+                            <img class="rounded" style="height: 80px;" src="/temp/product/article/rabbit.jpg"
+                                 alt="Card image cap">
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-9 col-xl-10 text-right align-self-baseline align-self-md-center pl-4 pt-3 pt-md-0"><h5 class="h5">محیط زندگی خرگوش shangol و بازیگوش خاک تو
+                                سر متن طولانی حوصله میخواد ... برو بابا</h5>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <p href="#" class="float-right small p-2"><span
+                                    class="pl-1 small">تاریخ انتشار:</span><span>1399/07/09</span></p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 mt-2 d-flex">
-                    <div>
-                        <video class="video-size-main rounded" playsinline="playsinline" autoplay="autoplay"
-                               muted="muted"
-                               loop="loop">
-                            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
-                                    type="video/mp4">
-                        </video>
+                <div class="col-12 article-mx">
+                    <div class="col-12 p-1 mb-5">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <div class="p-3">
-                        <a href="#" class="a-title"><h5 class="card-title">محیط زندگی خرگوش shangol و بازیگوش
-                                خاک تو
-                                سر متن طولانی حوصله میخواد ... برو بابا</h5></a>
-                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-                            استفاده
-                            از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-                            است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
-                            کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
-                            جامعه و
-                            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
-                            الخصوص</p>
-                        <a href="#" class="btn btn-sm btn-light mt-3">ادامه مطلب</a>
+                    <div class="col-12 text-article">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها
+                        و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                        و
+                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال
+                        و
+                        آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان
+                        رایانه
+                        ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت
+                        که
+                        تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل
+                        حروفچینی
+                        دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
                     </div>
-                </div>
-
-                <div class="col-12 mt-2 d-flex">
-                    <div>
-                        <video class="video-size-main rounded" playsinline="playsinline" autoplay="autoplay"
-                               muted="muted"
-                               loop="loop">
-                            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
-                                    type="video/mp4">
-                        </video>
+                    <div class="col-12 text-article">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها
+                        و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                        و
+                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال
+                        و
+                        آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان
+                        رایانه
+                        ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت
+                        که
+                        تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل
+                        حروفچینی
+                        دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
                     </div>
-                    <div class="p-3">
-                        <a href="#" class="a-title"><h5 class="card-title">محیط زندگی خرگوش shangol و بازیگوش
-                                خاک تو
-                                سر متن طولانی حوصله میخواد ... برو بابا</h5></a>
-                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-                            استفاده
-                            از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-                            است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
-                            کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
-                            جامعه و
-                            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
-                            الخصوص</p>
-                        <a href="#" class="btn btn-sm btn-light mt-3">ادامه مطلب</a>
+                    <div class="col-12 px-5 mt-5 mb-3 text-left">
+                        <h6>برچسب های این مقاله</h6>
+                        <a href="#"><span class="badge badge-secondary">سگ</span></a>
+                        <a href="#"><span class="badge badge-secondary">گربه</span></a>
+                        <a href="#"><span class="badge badge-secondary">طوطی</span></a>
                     </div>
-                </div>
-
-                <div class="col-12 mt-2 d-flex">
-                    <div>
-                        <video class="video-size-main rounded" playsinline="playsinline" autoplay="autoplay"
-                               muted="muted"
-                               loop="loop">
-                            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
-                                    type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="p-3">
-                        <a href="#" class="a-title"><h5 class="card-title">محیط زندگی خرگوش shangol و بازیگوش
-                                خاک تو
-                                سر متن طولانی حوصله میخواد ... برو بابا</h5></a>
-                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-                            استفاده
-                            از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-                            است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
-                            کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
-                            جامعه و
-                            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
-                            الخصوص</p>
-                        <a href="#" class="btn btn-sm btn-light mt-3">ادامه مطلب</a>
-                    </div>
-                </div>
-
-                <div class="col-12 mt-2 d-flex">
-                    <div>
-                        <video class="video-size-main rounded" playsinline="playsinline" autoplay="autoplay"
-                               muted="muted"
-                               loop="loop">
-                            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
-                                    type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="p-3">
-                        <a href="#" class="a-title"><h5 class="card-title">محیط زندگی خرگوش shangol و بازیگوش
-                                خاک تو
-                                سر متن طولانی حوصله میخواد ... برو بابا</h5></a>
-                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-                            استفاده
-                            از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-                            است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
-                            کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
-                            جامعه و
-                            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
-                            الخصوص</p>
-                        <p href="#" class="float-right gray-color small mt-3">تاریخ انتشار:1399/07/09</p>
-                        <a href="#" class="btn-vi-ar mt-3">مشاهده ویدیو</a>
-                    </div>
-                </div>
-
-                <div class="col-12 mt-2 d-flex">
-                    <div>
-                        <video class="video-size-main rounded" playsinline="playsinline" autoplay="autoplay"
-                               muted="muted"
-                               loop="loop">
-                            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
-                                    type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="p-3">
-                        <a href="#" class="a-title"><h5 class="card-title">محیط زندگی خرگوش shangol و بازیگوش
-                                خاک تو
-                                سر متن طولانی حوصله میخواد ... برو بابا</h5></a>
-                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-                            استفاده
-                            از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-                            است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
-                            کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
-                            جامعه و
-                            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
-                            الخصوص</p>
-                        <p href="#" class="float-right gray-color small mt-3">تاریخ انتشار:1399/07/09</p>
-                        <a href="#" class="btn-vi-ar mt-3 pt-2">مشاهده ویدیو</a>
-                    </div>
-                </div>
-
-                <div class="col-12 my-4">
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination justify-content-center">
-                            <li class="page-item">
-                                <a class="page-link" href="#" tabindex="-1">بعدی</a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item">
-                                <a class="page-link disabled" href="#">قبلی</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-12 text-right mb-3 border-top-c3 mt-2">
-                    <p class="small gray-color mb-2 mt-2 text-justify"><i
-                            class="fas fa-exclamation-circle ml-2"></i>مقالات و ویدئوها به ترتیب انتشار از جدید به قدیم
-                        قرار
-                        گرفته اند.</p>
                 </div>
             </div>
         </div>
+    </div>
 
 
 

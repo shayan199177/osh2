@@ -210,7 +210,7 @@
 
 @section('content')
     <div class="container-fluid bg-white">
-        <div class="container pt-2 pb-4 pt-sm-3">
+        <div class="container pt-2 pb-2 pt-sm-3 pb-sm-3">
             <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
                 <ol class="carousel-indicators">
                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -552,35 +552,35 @@
     <div class="container-fluid bg-white">
         <div class="container">
             <div class="row py-1">
-                <div class="col-3 p-2">
+                <div class="col-12 col-sm-6 col-lg-3 py-1 p-sm-2">
                     <div class="box-4">
                         <a href="#">
                             <img srcset="assets/images/sliders/box-tip.jpg" alt="responsive image"
-                                 class="d-block img-fluid border-10">
+                                 class="d-block img-fluid border-10 mx-auto">
                         </a>
                     </div>
                 </div>
-                <div class="col-3 p-2">
+                <div class="col-12 col-sm-6 col-lg-3 py-1 p-sm-2">
                     <div class="box-4">
                         <a href="#">
                             <img srcset="assets/images/sliders/box-tip-2.jpg" alt="responsive image"
-                                 class="d-block img-fluid border-10">
+                                 class="d-block img-fluid border-10 mx-auto">
                         </a>
                     </div>
                 </div>
-                <div class="col-3 p-2">
+                <div class="col-12 col-sm-6 col-lg-3 py-1 p-sm-2">
                     <div class="box-4">
                         <a href="#">
                             <img srcset="assets/images/sliders/box-tip-3.jpg" alt="responsive image"
-                                 class="d-block img-fluid border-10">
+                                 class="d-block img-fluid border-10 mx-auto">
                         </a>
                     </div>
                 </div>
-                <div class="col-3 p-2">
+                <div class="col-12 col-sm-6 col-lg-3 py-1 p-sm-2">
                     <div class="box-4">
                         <a href="#">
                             <img srcset="assets/images/sliders/box-tip-4.jpg" alt="responsive image"
-                                 class="d-block img-fluid border-10">
+                                 class="d-block img-fluid border-10 mx-auto">
                         </a>
                     </div>
                 </div>
@@ -1079,36 +1079,36 @@
     <div class="w-100" style="height: 8px; background-color: #f1c40f;"></div>
     <div class="container-fluid bg-currentColor">
         <div class="container">
-            <div class="row py-4">
-                <div class="col-3 p-3">
+            <div class="row py-4 justify-content-center">
+                <div class="col-8 col-sm-6 col-lg-3 py-2 py-lg-0">
                     <div class="box-4">
                         <a href="#">
                             <img srcset="/temp/product/article/rabbit.jpg" alt="responsive image"
-                                 class="d-block img-fluid border-10">
+                                 class="d-block img-fluid border-10 mx-auto">
                         </a>
                     </div>
                 </div>
-                <div class="col-3 p-3">
+                <div class="col-8 col-sm-6 col-lg-3 py-2 py-lg-0">
                     <div class="box-4">
                         <a href="#">
                             <img srcset="/temp/product/article/rabbit.jpg" alt="responsive image"
-                                 class="d-block img-fluid border-10">
+                                 class="d-block img-fluid border-10 mx-auto">
                         </a>
                     </div>
                 </div>
-                <div class="col-3 p-3">
+                <div class="col-8 col-sm-6 col-lg-3 py-2 py-lg-0">
                     <div class="box-4">
                         <a href="#">
                             <img srcset="/temp/product/article/rabbit.jpg" alt="responsive image"
-                                 class="d-block img-fluid border-10">
+                                 class="d-block img-fluid border-10 mx-auto">
                         </a>
                     </div>
                 </div>
-                <div class="col-3 p-3">
+                <div class="col-8 col-sm-6 col-lg-3 py-2 py-lg-0">
                     <div class="box-4">
                         <a href="#">
                             <img srcset="/temp/product/article/rabbit.jpg" alt="responsive image"
-                                 class="d-block img-fluid border-10">
+                                 class="d-block img-fluid border-10 mx-auto">
                         </a>
                     </div>
                 </div>
@@ -1119,8 +1119,8 @@
 
     <div class="container-fluid bg-white">
         <div class="container">
-            <div class="row pt-5">
-                <div class="col-3 p-3">
+            <div class="row pt-5 justify-content-center">
+                <div class="col-8 col-sm-6 col-lg-3 py-2 py-lg-0">
                     <div class="box-4">
                         <a href="#">
                             <img srcset="/temp/product/article/rabbit.jpg" alt="responsive image"
@@ -1134,7 +1134,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-3 p-3">
+                <div class="col-8 col-sm-6 col-lg-3 py-2 py-lg-0">
                     <div class="box-4">
                         <a href="#">
                             <img srcset="/temp/product/article/dog.jpg" alt="responsive image"
@@ -1148,7 +1148,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-3 p-3">
+                <div class="col-8 col-sm-6 col-lg-3 py-2 py-lg-0">
                     <div class="box-4">
                         <a href="#">
                             <img srcset="/temp/product/article/cat.jpg" alt="responsive image"
@@ -1163,7 +1163,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-3 p-3">
+                <div class="col-8 col-sm-6 col-lg-3 py-2 py-lg-0">
                     <div class="box-4">
                         <a href="#">
                             <img srcset="/temp/product/article/rabbit.jpg" alt="responsive image"
@@ -1188,8 +1188,13 @@
                 <div class="col-12 p-3">
                     <div class="box-5">
                         <a href="#">
-                            <img srcset="assets/images/sliders/box-bozorg.jpg" alt="responsive image"
-                                 class="d-block img-fluid mx-auto border-10">
+                            <picture>
+                                <source srcset="assets/images/sliders/2000D500-4.jpg" media="(min-width: 1400px)">
+                                <source srcset="assets/images/sliders/1400D430-2.jpg" media="(min-width: 769px)">
+                                <source srcset="assets/images/sliders/800D350-2.jpg" media="(min-width: 577px)">
+                                <img srcset="assets/images/sliders/600D300.jpg" alt="responsive image"
+                                     class="d-block img-fluid">
+                            </picture>
                         </a>
                     </div>
                 </div>
