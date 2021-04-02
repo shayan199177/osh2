@@ -26,3 +26,5 @@ Route::view('empty-orders', 'empty-orders');
 Route::view('videos', 'videos');
 Route::view('article', 'article');
 Route::view('video', 'video');
+Route::view('question', 'question');
+Route::view('contact', 'contact');
