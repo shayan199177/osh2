@@ -55,7 +55,7 @@
                 </div>
                 <div class="col-12 mt-5">
                     <form class="row text-right">
-                        <div class="form-group col-md-4">
+                        <div class="form-group col-md-6 col-lg-3">
                             <label for="inputState" class="small">انتخاب موضوع</label>
                             <select id="inputState" class="form-control form-control-profile">
                                 <option selected>انتخاب کنید...</option>
@@ -65,12 +65,16 @@
                                 <option>ارتباط با مدیر سایت</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-4">
+                        <div class="form-group col-md-6 col-lg-3">
                             <label for="exampleInputEmail1" class="small">نام و نام خانوادگی</label>
                             <input type="email" class="form-control form-control-profile px-2 py-1" id="exampleInputEmail1">
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="exampleInputEmail1" class="small">ایمیل یا شماره تماس</label>
+                        <div class="form-group col-md-6 col-lg-3">
+                            <label for="exampleInputEmail1" class="small">ایمیل</label>
+                            <input type="email" class="form-control form-control-profile px-2 py-1" id="exampleInputEmail1">
+                        </div>
+                        <div class="form-group col-md-6 col-lg-3">
+                            <label for="exampleInputEmail1" class="small">شماره تماس</label>
                             <input type="email" class="form-control form-control-profile px-2 py-1" id="exampleInputEmail1">
                         </div>
                         <div class="form-group col-12">
