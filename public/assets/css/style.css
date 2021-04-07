@@ -1572,7 +1572,6 @@ nav > div a.nav-item.nav-lin:focus {
     padding: .375rem .75rem;
     font-size: 0.81rem;
     font-weight: 400;
-    line-height: 1;
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
@@ -1614,7 +1613,6 @@ nav > div a.nav-item.nav-lin:focus {
     border: 1px solid #ced4da !important;
     font-size: 0.81rem;
     font-weight: 400;
-    line-height: 1;
     color: #495057;
 }
 
