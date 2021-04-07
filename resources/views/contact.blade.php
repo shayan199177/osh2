@@ -1,4 +1,5 @@
 @extends('layouts.shop')
+
 @push('styles')
     <style>
         .form-control-profile {
@@ -40,7 +41,7 @@
                         همکاران ما در فروشگاه اينترنتی شایان‌پت همه روزه از ساعت ۹ صبح تا ۹ شب آماده پاسخگويی هستند.
                     </p>
                     <p class="text-right font-88 py-1">
-                         پت شاپ آنلاین شایان پت فروشگاهی اینترنتی است و پذیرش حضوری ندارد.
+                        پت شاپ آنلاین شایان پت فروشگاهی اینترنتی است و پذیرش حضوری ندارد.
                     </p>
                     <p class="text-right font-88 py-1">
                         از طریق آدرس وب سایت و شماره تماس‌های فروشگاه می‌توانید با ما در ارتباط باشید.
@@ -50,36 +51,37 @@
                     </p>
                 </div>
                 <div class="col-12 text-right mt-3">
-                    <p class="py-1">شماره تلفن: 77931478-021</p>
-                    <p class="py-1">ایمیل: info@shayanpet.com</p>
+                    <p class="py-1">شماره تلفن: <span>021-77777777</span></p>
+                    <p class="py-1">ایمیل: <span>info@shayanpet.com</span></p>
                 </div>
                 <div class="col-12 mt-5">
-                    <form class="row text-right">
-                        <div class="form-group col-md-6 col-lg-3">
-                            <label for="inputState" class="small">انتخاب موضوع</label>
-                            <select id="inputState" class="form-control form-control-profile">
+                    <form action="/contact-us" method="post" class="row text-right">
+                        @csrf
+                        <div class="form-group col-md-6 col-xl-3">
+                            <label for="subject" class="small">انتخاب موضوع</label>
+                            <select id="subject" name="subject" class="form-control form-control-profile">
                                 <option selected>انتخاب کنید...</option>
-                                <option>پیگیری سفارش</option>
-                                <option>ثبت شکایت</option>
-                                <option>درخواست همکاری</option>
-                                <option>ارتباط با مدیر سایت</option>
+                                <option value="پیگیری سفارش">پیگیری سفارش</option>
+                                <option value="ثبت شکایت">ثبت شکایت</option>
+                                <option value="درخواست همکاری">درخواست همکاری</option>
+                                <option value="ارتباط با مدیر سایت">ارتباط با مدیر سایت</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-6 col-lg-3">
-                            <label for="exampleInputEmail1" class="small">نام و نام خانوادگی</label>
-                            <input type="email" class="form-control form-control-profile px-2 py-1" id="exampleInputEmail1">
+                        <div class="form-group col-md-6 col-xl-3">
+                            <label for="name" class="small">نام و نام خانوادگی</label>
+                            <input type="text" class="form-control form-control-profile px-2 py-1" id="name" name="name">
                         </div>
-                        <div class="form-group col-md-6 col-lg-3">
-                            <label for="exampleInputEmail1" class="small">ایمیل</label>
-                            <input type="email" class="form-control form-control-profile px-2 py-1" id="exampleInputEmail1">
+                        <div class="form-group col-md-6 col-xl-3">
+                            <label for="email" class="small">ایمیل</label>
+                            <input type="email" class="form-control form-control-profile px-2 py-1" id="email" name="email">
                         </div>
-                        <div class="form-group col-md-6 col-lg-3">
-                            <label for="exampleInputEmail1" class="small">شماره تماس</label>
-                            <input type="email" class="form-control form-control-profile px-2 py-1" id="exampleInputEmail1">
+                        <div class="form-group col-md-6 col-xl-3">
+                            <label for="phone" class="small">شماره تماس</label>
+                            <input type="text" class="form-control form-control-profile px-2 py-1" id="phone" name="phone">
                         </div>
                         <div class="form-group col-12">
-                            <label for="exampleFormControlTextarea1" class="small">متن شما</label>
-                            <textarea class="form-control-textbox-item form1" id="exampleFormControlTextarea1" rows="3"
+                            <label for="text" class="small">متن شما</label>
+                            <textarea class="form-control-textbox-item form1" id="text" name="text" rows="3"
                                       placeholder="متن خود را اینجا بنویسید..."></textarea>
                         </div>
                         <div class="text-center mx-auto mt-3 mb-4">
@@ -90,11 +92,4 @@
             </div>
         </div>
     </div>
-
-
-
-
 @endsection
-
-
-
