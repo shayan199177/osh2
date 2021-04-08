@@ -1081,10 +1081,6 @@
 
 @push('scripts')
     <script src="{!! asset('assets/libs/owl-carousel/owl.carousel.min.js') !!}"></script>
-    <script src="{!! asset('assets/libs/js-zoom/setup.js') !!}"></script>
-    <script src="{!! asset('assets/libs/js-zoom/vendor/placeholder.js') !!}"></script>
-    <script src="{!! asset('assets/libs/js-zoom/vendor/fastclick.js') !!}"></script>
-    <script src="{!! asset('assets/libs/js-zoom/vendor/jquery.cookie.js') !!}"></script>
     <script src="{!! asset('assets/libs/jssor.slider-28.1.0.min.js') !!}"></script>
 @endpush
 
