@@ -564,7 +564,6 @@ ul {
     /* reset the height when checkbox is checked */
     max-height: 1000px;
     text-align: right;
-    padding: 0 20px;
 }
 
 label > span {
@@ -2762,8 +2761,19 @@ input[type=range]::-ms-thumb {
     border: none;
 }
 
-.collapse-more-item{
+#collapseExampleMore{
+    width: 100%;
+}
 
+#collapseExampleMore.collapse:not(.show) {
+    display: block;
+    /* height = lineheight * no of lines to display */
+    height: 5.77em;
+    overflow: hidden;
+}
+
+#collapseExampleMore.collapsing {
+    height: 5.77em;
 }
 
 /*profile form input*/

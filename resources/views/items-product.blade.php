@@ -22,7 +22,7 @@
                             <ul class="group-list">
                                 <li class="pb-3">
                                     <div id="hamburger-checkbox-brand">
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox2"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -30,7 +30,7 @@
                                                     class="pr-1 small">ارزانترین</span>
                                             </label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox2"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -38,7 +38,7 @@
                                                     class="pr-1 small">گرانترین</span>
                                             </label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox2"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -46,7 +46,7 @@
                                                     class="pr-1 small">پرفروشترین</span>
                                             </label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox2"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -54,26 +54,35 @@
                                                     class="pr-1 small">جدیدترین</span>
                                             </label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
-                                            <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox2"
-                                                   value="option2">
-                                            <label class="form-check-label mr-3 justify-content-around"
-                                                   for="inlineCheckbox2"><span
-                                                    class="pr-1 small">دارای تخفیف</span>
-                                            </label>
-                                        </div>
                                     </div>
                                 </li>
                             </ul>
                         </li>
                         <li>
+                            <input id="group-3" type="checkbox" hidden/>
+                            <label for="group-3"><span class="fa fa-angle-down pt-1 pl-2 align-self-center"></span>
+                              محصولات مشابه</label>
+                            <ul class="group-list">
+                                <li><a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a></li>
+                                <li><a href="#" class="black-color"><p class="small mb-1">آکواریوم ها</p></a></li>
+                                <li><a href="#" class="black-color"><p class="small mb-1">میز آکواریوم</p></a></li>
+                                <li><a href="#" class="black-color"><p class="small mb-1">غذای گربه ها</p></a></li>
+                                <li><a href="#" class="black-color"><p class="small mb-1">ظرف غذا</p></a></li>
+                                <li><a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a></li>
+                                <li><a href="#" class="black-color"><p class="small mb-1">آکواریوم ها</p></a></li>
+                                <li><a href="#" class="black-color"><p class="small mb-1">میز آکواریوم</p></a></li>
+                                <li><a href="#" class="black-color"><p class="small mb-1">غذای گربه ها</p></a></li>
+                                <li><a href="#" class="black-color"><p class="small mb-1">ظرف غذا</p></a></li>
+                            </ul>
+                        </li>
+                        <li>
                             <input id="group-2" type="checkbox" hidden/>
-                            <label for="group-2"><span class="fa fa-angle-down pt-1 pl-2 align-self-center"></span>نوع
+                            <label for="group-2"><span class="fa fa-angle-down pt-1 pl-2 align-self-center"></span>
                                 برند</label>
                             <ul class="group-list">
                                 <li class="pb-3">
                                     <div id="hamburger-checkbox-brand">
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox2"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -81,7 +90,7 @@
                                                     class="pr-1 small">آوانتیس</span><span
                                                     class="position-absolute left-0 small">Avantis</span></label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox3"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -89,7 +98,7 @@
                                                     class="pr-1 small">نوتری</span><span
                                                     class="position-absolute left-0 small">Nutri</span></label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox4"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -97,7 +106,7 @@
                                                     class="pr-1 small">بوش</span><span
                                                     class="position-absolute left-0 small">Bosch</span></label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox5"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -105,7 +114,7 @@
                                                     class="pr-1 small">بلکاندو</span><span
                                                     class="position-absolute left-0 small">Belcando</span></label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox6"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -113,7 +122,7 @@
                                                     class="pr-1 small">جوسرا</span><span
                                                     class="position-absolute left-0 small">Josera</span></label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox7"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -121,7 +130,7 @@
                                                     class="pr-1 small">دکتر کلادرز</span><span
                                                     class="position-absolute left-0 small">Dr.Clauders</span></label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox8"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -129,7 +138,7 @@
                                                     class="pr-1 small">رویال فید</span><span
                                                     class="position-absolute left-0 small">Royal Feed</span></label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox9"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -137,7 +146,7 @@
                                                     class="pr-1 small">هپی داگ</span><span
                                                     class="position-absolute left-0 small">Happy Dog</span></label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox10"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -145,7 +154,7 @@
                                                     class="pr-1 small">مفید</span><span
                                                     class="position-absolute left-0 small">MoFeed</span></label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox11"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -153,7 +162,7 @@
                                                     class="pr-1 small">جانگل</span><span
                                                     class="position-absolute left-0 small">Jungle</span></label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox12"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -161,7 +170,7 @@
                                                     class="pr-1 small">رویال کنین</span><span
                                                     class="position-absolute left-0 small">Royal Canin</span></label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox13"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -169,7 +178,7 @@
                                                     class="pr-1 small">پرامی</span><span
                                                     class="position-absolute left-0 small">Pramy</span></label>
                                         </div>
-                                        <div class="form-check-items text-right py-1">
+                                        <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox14"
                                                    value="option2">
                                             <label class="form-check-label mr-3 justify-content-around"
@@ -183,16 +192,13 @@
                             </ul>
                         </li>
                         <li>
-                            <input id="group-3" type="checkbox" hidden/>
-                            <label for="group-3"><span class="fa fa-angle-down pt-1 pl-2 align-self-center"></span>دسته
-                                بندی محصولات مشابه</label>
-                            <ul class="group-list">
-                                <li><a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a></li>
-                                <li><a href="#" class="black-color"><p class="small mb-1">آکواریوم ها</p></a></li>
-                                <li><a href="#" class="black-color"><p class="small mb-1">میز آکواریوم</p></a></li>
-                                <li><a href="#" class="black-color"><p class="small mb-1">غذای گربه ها</p></a></li>
-                                <li><a href="#" class="black-color"><p class="small mb-1">ظرف غذا</p></a></li>
-                            </ul>
+                            <div class="pr-on mt-3 d-flex">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                                <span class="small mr-2">فقط کالاهای موجود</span>
+                            </div>
                         </li>
                         <li>
                             <div class="pr-on mt-3 d-flex">
@@ -200,7 +206,7 @@
                                     <input type="checkbox">
                                     <span class="slider round"></span>
                                 </label>
-                                <span class="small mr-2">فقط کالاهای موجود</span>
+                                <span class="small mr-2">فقط کالاهای تخفیف دار</span>
                             </div>
                         </li>
                         <li>
@@ -230,14 +236,7 @@
             <div class="d-none d-xl-block col-xl-3 mt-4 pt-1">
                 <div class="bg-white border rounded">
                     <div class="mt-4 py-2 px-3 bg-white black-color active text-right rounded-top">دسته بندی نتایج</div>
-{{--                    <div class="text-right px-4">--}}
-{{--                        <a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a>--}}
-{{--                        <a href="#" class="black-color"><p class="small mb-1">آکواریوم ها</p></a>--}}
-{{--                        <a href="#" class="black-color"><p class="small mb-1">میز آکواریوم</p></a>--}}
-{{--                        <a href="#" class="black-color"><p class="small mb-1">غذای گربه ها</p></a>--}}
-{{--                        <a href="#" class="black-color"><p class="small mb-1">ظرف غذا</p></a>--}}
-{{--                    </div>--}}
-                    <div class="collapse text-right px-4 collapse-more-item" id="collapseExample">
+                    <div class="collapse text-right px-4 collapse-more-item" id="collapseExampleMore">
                         <a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a>
                         <a href="#" class="black-color"><p class="small mb-1">آکواریوم ها</p></a>
                         <a href="#" class="black-color"><p class="small mb-1">میز آکواریوم</p></a>
@@ -250,9 +249,10 @@
                         <a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a>
                         <a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a>
                     </div>
+
                     <p class="text-center pt-2">
                         <button class="btn btn-sm btn-light w-75 small" type="button" data-toggle="collapse"
-                                data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+                                data-target="#collapseExampleMore" aria-expanded="true" aria-controls="collapseExampleMore">
                             مشاهده همه
                         </button>
                     </p>
@@ -435,6 +435,14 @@
                         <span class="small mr-2">فقط کالاهای موجود</span>
                     </div>
 
+                    <div class="pr-on mt-2 d-flex">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <span class="small mr-2">فقط کالاهای تخفیف دار</span>
+                    </div>
+
 
                     <div class="p-3 mt-5 bg-white  black-color active text-right rounded-top">محدوده قیمت</div>
                     <ul class="list-group mb-5">
@@ -475,9 +483,6 @@
                             </div>
                             <div class="p-2">
                                 <button type="button" class="btn btn-sm hover-btn-sort p-1">جدیدترین</button>
-                            </div>
-                            <div class="p-2">
-                                <button type="button" class="btn btn-sm hover-btn-sort p-1">دارای تخفیف</button>
                             </div>
                         </div>
                     </div>
