@@ -1085,11 +1085,11 @@
     <script src="{!! asset('assets/libs/js-zoom/vendor/placeholder.js') !!}"></script>
     <script src="{!! asset('assets/libs/js-zoom/vendor/fastclick.js') !!}"></script>
     <script src="{!! asset('assets/libs/js-zoom/vendor/jquery.cookie.js') !!}"></script>
+    <script src="{!! asset('assets/js/owlCarousel.js') !!}"></script>
 @endpush
 
 @push('custom-scripts')
     <script src="{!! asset('assets/libs/jssor.slider-28.1.0.min.js') !!}"></script>
-    <script src="{!! asset('assets/js/owlCarousel.js') !!}"></script>
     <script type="text/javascript">
         window.jssor_1_slider_init = function () {
 
