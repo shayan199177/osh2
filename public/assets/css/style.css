@@ -2762,6 +2762,10 @@ input[type=range]::-ms-thumb {
     border: none;
 }
 
+.collapse-more-item{
+
+}
+
 /*profile form input*/
 
 .form-control-profile {

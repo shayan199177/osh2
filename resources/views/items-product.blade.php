@@ -230,14 +230,19 @@
             <div class="d-none d-xl-block col-xl-3 mt-4 pt-1">
                 <div class="bg-white border rounded">
                     <div class="mt-4 py-2 px-3 bg-white black-color active text-right rounded-top">دسته بندی نتایج</div>
-                    <div class="text-right px-4">
+{{--                    <div class="text-right px-4">--}}
+{{--                        <a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a>--}}
+{{--                        <a href="#" class="black-color"><p class="small mb-1">آکواریوم ها</p></a>--}}
+{{--                        <a href="#" class="black-color"><p class="small mb-1">میز آکواریوم</p></a>--}}
+{{--                        <a href="#" class="black-color"><p class="small mb-1">غذای گربه ها</p></a>--}}
+{{--                        <a href="#" class="black-color"><p class="small mb-1">ظرف غذا</p></a>--}}
+{{--                    </div>--}}
+                    <div class="collapse text-right px-4 collapse-more-item" id="collapseExample">
                         <a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a>
                         <a href="#" class="black-color"><p class="small mb-1">آکواریوم ها</p></a>
                         <a href="#" class="black-color"><p class="small mb-1">میز آکواریوم</p></a>
                         <a href="#" class="black-color"><p class="small mb-1">غذای گربه ها</p></a>
                         <a href="#" class="black-color"><p class="small mb-1">ظرف غذا</p></a>
-                    </div>
-                    <div class="collapse text-right px-4" id="collapseExample">
                         <a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a>
                         <a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a>
                         <a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a>
@@ -247,7 +252,7 @@
                     </div>
                     <p class="text-center pt-2">
                         <button class="btn btn-sm btn-light w-75 small" type="button" data-toggle="collapse"
-                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
                             مشاهده همه
                         </button>
                     </p>
