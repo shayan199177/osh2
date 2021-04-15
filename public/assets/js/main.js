@@ -270,3 +270,19 @@ window.HomePage = () => {
         /*#endregion responsive code end*/
     };
 }
+
+/**
+ * Open Sidebar Menu
+ */
+function openNav() {
+    document.getElementById("side-nav").style.right = '0';
+    document.body.style.overflowY = 'hidden';
+}
+
+/**
+ * Close Sidebar Menu
+ */
+function closeNav() {
+    document.getElementById("side-nav").style.right = '-100%';
+    document.body.style.removeProperty('overflow-y');
+}
