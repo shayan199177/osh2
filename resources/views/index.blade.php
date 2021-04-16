@@ -982,7 +982,7 @@
         <div class="container">
             <div class="row py-2 pb-4">
                 <div class="col-12 p-3">
-                    <div class="box-5">
+                    <div class="box-4">
                         <a href="#">
                             <picture>
                                 <source srcset="assets/images/sliders/2000D500-4.jpg" media="(min-width: 1400px)">
