@@ -18,10 +18,10 @@
                     <div class="carousel-item active">
                         <a href="#">
                             <picture>
-                                <source srcset="assets/images/sliders/2000D500-4.jpg" media="(min-width: 1400px)">
-                                <source srcset="assets/images/sliders/1400D430-2.jpg" media="(min-width: 769px)">
-                                <source srcset="assets/images/sliders/800D350-2.jpg" media="(min-width: 577px)">
-                                <img srcset="assets/images/sliders/600D300.jpg" alt="responsive image"
+                                <source srcset="assets/images/sliders/2000.jpg" media="(min-width: 1400px)">
+                                <source srcset="assets/images/sliders/1400.jpg" media="(min-width: 769px)">
+                                <source srcset="assets/images/sliders/800.jpg" media="(min-width: 577px)">
+                                <img srcset="assets/images/sliders/600.jpg" alt="responsive image"
                                      class="d-block img-fluid">
                             </picture>
                             {{--                            <div class="carousel-caption">--}}
@@ -37,9 +37,9 @@
                     <div class="carousel-item">
                         <a href="#">
                             <picture>
-                                <source srcset="assets/images/sliders/2000D500-4.jpg" media="(min-width: 1400px)">
-                                <source srcset="assets/images/sliders/1400D430-2.jpg" media="(min-width: 769px)">
-                                <source srcset="assets/images/sliders/800D350-2.jpg" media="(min-width: 577px)">
+                                <source srcset="assets/images/sliders/2000-1.jpg" media="(min-width: 1400px)">
+                                <source srcset="assets/images/sliders/1400-1.jpg" media="(min-width: 769px)">
+                                <source srcset="assets/images/sliders/800-1.jpg" media="(min-width: 577px)">
                                 <img srcset="assets/images/sliders/600D300.jpg" alt="responsive image"
                                      class="d-block img-fluid">
                             </picture>

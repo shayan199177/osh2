@@ -13,7 +13,7 @@
                 <label class="hamburger-icon align-self-center" for="hamburger-checkbox">
                     <i class="fas fa-sort-amount-down"></i> فیلتر محصولات
                 </label>
-                <nav class="nav" role="navigation">
+                <nav class="nav-d" role="navigation">
                     <ul class="nav__list">
                         <li>
                             <input id="group-1" type="checkbox" hidden/>
@@ -61,7 +61,7 @@
                         <li>
                             <input id="group-3" type="checkbox" hidden/>
                             <label for="group-3"><span class="fa fa-angle-down pt-1 pl-2 align-self-center"></span>
-                              محصولات مشابه</label>
+                              دسته بندی</label>
                             <ul class="group-list">
                                 <li><a href="#" class="black-color"><p class="small mb-1">غذای ماهیان</p></a></li>
                                 <li><a href="#" class="black-color"><p class="small mb-1">آکواریوم ها</p></a></li>
