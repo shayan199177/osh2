@@ -362,9 +362,7 @@ input:checked + .slider:before {
 }
 
 .nav {
-    max-height: 0;
-    overflow: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
     margin-top: 43px;
     box-shadow: none;
 }
