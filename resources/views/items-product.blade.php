@@ -88,7 +88,7 @@
                                             <label class="form-check-label mr-3 justify-content-around"
                                                    for="inlineCheckbox2"><span
                                                     class="pr-1 small">آوانتیس</span><span
-                                                    class="position-absolute left-0 small">Avantis</span></label>
+                                                    class="position-absolute left-14 small">Avantis</span></label>
                                         </div>
                                         <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox3"
@@ -96,7 +96,7 @@
                                             <label class="form-check-label mr-3 justify-content-around"
                                                    for="inlineCheckbox3"><span
                                                     class="pr-1 small">نوتری</span><span
-                                                    class="position-absolute left-0 small">Nutri</span></label>
+                                                    class="position-absolute left-14 small">Nutri</span></label>
                                         </div>
                                         <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox4"
@@ -104,7 +104,7 @@
                                             <label class="form-check-label mr-3 justify-content-around"
                                                    for="inlineCheckbox4"><span
                                                     class="pr-1 small">بوش</span><span
-                                                    class="position-absolute left-0 small">Bosch</span></label>
+                                                    class="position-absolute left-14 small">Bosch</span></label>
                                         </div>
                                         <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox5"
@@ -112,7 +112,7 @@
                                             <label class="form-check-label mr-3 justify-content-around"
                                                    for="inlineCheckbox5"><span
                                                     class="pr-1 small">بلکاندو</span><span
-                                                    class="position-absolute left-0 small">Belcando</span></label>
+                                                    class="position-absolute left-14 small">Belcando</span></label>
                                         </div>
                                         <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox6"
@@ -120,7 +120,7 @@
                                             <label class="form-check-label mr-3 justify-content-around"
                                                    for="inlineCheckbox6"><span
                                                     class="pr-1 small">جوسرا</span><span
-                                                    class="position-absolute left-0 small">Josera</span></label>
+                                                    class="position-absolute left-14 small">Josera</span></label>
                                         </div>
                                         <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox7"
@@ -128,7 +128,7 @@
                                             <label class="form-check-label mr-3 justify-content-around"
                                                    for="inlineCheckbox7"><span
                                                     class="pr-1 small">دکتر کلادرز</span><span
-                                                    class="position-absolute left-0 small">Dr.Clauders</span></label>
+                                                    class="position-absolute left-14 small">Dr.Clauders</span></label>
                                         </div>
                                         <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox8"
@@ -136,7 +136,7 @@
                                             <label class="form-check-label mr-3 justify-content-around"
                                                    for="inlineCheckbox8"><span
                                                     class="pr-1 small">رویال فید</span><span
-                                                    class="position-absolute left-0 small">Royal Feed</span></label>
+                                                    class="position-absolute left-14 small">Royal Feed</span></label>
                                         </div>
                                         <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox9"
@@ -144,7 +144,7 @@
                                             <label class="form-check-label mr-3 justify-content-around"
                                                    for="inlineCheckbox9"><span
                                                     class="pr-1 small">هپی داگ</span><span
-                                                    class="position-absolute left-0 small">Happy Dog</span></label>
+                                                    class="position-absolute left-14 small">Happy Dog</span></label>
                                         </div>
                                         <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox10"
@@ -152,7 +152,7 @@
                                             <label class="form-check-label mr-3 justify-content-around"
                                                    for="inlineCheckbox10"><span
                                                     class="pr-1 small">مفید</span><span
-                                                    class="position-absolute left-0 small">MoFeed</span></label>
+                                                    class="position-absolute left-14 small">MoFeed</span></label>
                                         </div>
                                         <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox11"
@@ -160,7 +160,7 @@
                                             <label class="form-check-label mr-3 justify-content-around"
                                                    for="inlineCheckbox11"><span
                                                     class="pr-1 small">جانگل</span><span
-                                                    class="position-absolute left-0 small">Jungle</span></label>
+                                                    class="position-absolute left-14 small">Jungle</span></label>
                                         </div>
                                         <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox12"
@@ -168,7 +168,7 @@
                                             <label class="form-check-label mr-3 justify-content-around"
                                                    for="inlineCheckbox12"><span
                                                     class="pr-1 small">رویال کنین</span><span
-                                                    class="position-absolute left-0 small">Royal Canin</span></label>
+                                                    class="position-absolute left-14 small">Royal Canin</span></label>
                                         </div>
                                         <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox13"
@@ -176,7 +176,7 @@
                                             <label class="form-check-label mr-3 justify-content-around"
                                                    for="inlineCheckbox13"><span
                                                     class="pr-1 small">پرامی</span><span
-                                                    class="position-absolute left-0 small">Pramy</span></label>
+                                                    class="position-absolute left-14 small">Pramy</span></label>
                                         </div>
                                         <div class="form-check-items text-right py-1 mr-3">
                                             <input class="form-check-input my-0" type="checkbox" id="inlineCheckbox14"
@@ -184,7 +184,7 @@
                                             <label class="form-check-label mr-3 justify-content-around"
                                                    for="inlineCheckbox14"><span
                                                     class="pr-1 small">سلبن</span><span
-                                                    class="position-absolute left-0 small">Pramy</span>
+                                                    class="position-absolute left-14 small">Pramy</span>
                                             </label>
                                         </div>
                                     </div>
@@ -210,7 +210,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="pr-on mt-2 d-flex">
+                            <div class="mt-2 d-flex">
                                 <ul class="list-group">
                                     <li class="list-group-item">
                                         <div class="mx-3">
